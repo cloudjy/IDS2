@@ -1,0 +1,14 @@
+<opml version="1.0">
+<head>
+<title>jczs-新浪rss</title>
+</head>
+<body>
+<outline title="军事频道-新浪RSS" text="军事频道-新浪RSS">
+<outline text="军事要闻汇总" title="军事要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/roll/mil/hot_roll.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/jczs/focus.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="军备动态" title="军备动态" type="rss" xmlUrl="http://rss.sina.com.cn/jczs/col/jbdongtai.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="国际军情" title="国际军情" type="rss" xmlUrl="http://rss.sina.com.cn/jczs/taiwan20.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="中国军情" title="中国军情" type="rss" xmlUrl="http://rss.sina.com.cn/jczs/china15.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="config-package" namespace="/Pages" extends="default">
+		<action name="config" class="com.gnamp.struts.action.ConfigAction">
+			<result name="success">/Pages/configmana/configlist.jsp</result>
+			<result name="preadd">/Pages/configmana/configadd.jsp</result>
+			<result name="prelist">/Pages/configmana/configlist.jsp</result>
+			<result name="preedit">/Pages/configmana/configedit.jsp</result>
+			<result name="preeditbean">/Pages/configmana/configeditbean.jsp</result>
+		</action>
+		<action name="monitor" class="com.gnamp.struts.action.TerminalAction">
+            <result name="list">/Pages/TerminalMonitor.jsp</result>
+		</action>
+	</package>
+</struts>

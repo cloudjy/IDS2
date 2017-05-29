@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	
+	<package name="admin-default" namespace="/admin" extends="struts-default">
+	
+	 	<interceptors>
+            <!-- 自定义拦截器 -->
+            <interceptor name="permission" class="com.gnamp.struts.admin.filter.AdminPermissionIntercept" />
+            <!-- 配制默许的拦截器到拦截器栈 -->
+            <interceptor-stack name="permissionStack">
+            
+                <interceptor-ref name="permission" />
+                
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        <!-- 配置默认的拦截器 -->
+        <default-interceptor-ref name="permissionStack" />
+        <!-- 全局变量  --> 
+		<default-action-ref name="customer" />
+	
+		<global-results>
+            <result name="admin-login" type="redirectAction">admin-login.action</result>
+            <result name="input">/jsonerrors.jsp</result>
+        </global-results>
+        <action name="changepassword" class="com.gnamp.struts.admin.action.ChangePasswordAction" >
+			<result>/admin/changepassword.jsp</result>
+		</action>
+		<action name="index" class="com.gnamp.struts.admin.action.AdminBaseAction">
+			<result>/admin/index.jsp</result>
+		</action>
+	</package>
+</struts>

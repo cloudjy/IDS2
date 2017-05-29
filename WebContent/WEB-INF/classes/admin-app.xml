@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="admin-app" namespace="/admin" extends="admin-default">
+		<action name="app" class="com.gnamp.struts.admin.action.AppAction">
+			<result name="success">/admin/app/list.jsp</result>
+			<result name="add">/admin/app/add.jsp</result>
+			<result name="preedit">/admin/app/edit.jsp</result>
+		</action>
+		<action name="jappupload" class="com.gnamp.struts.admin.action.AppUploadAction">
+			<result name="success">/admin/app/upload.jsp</result>
+		</action>
+		
+		<action name="appupload" class="com.gnamp.struts.admin.action.FlexAppUploadAction">
+			<result name="success">/admin/app/flexupload.jsp</result>
+		</action>
+	</package>
+</struts>

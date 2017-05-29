@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<programlist taskid="1493209429" taskname="1" ver="20170426 202538"/>
+<program height="1080" id="1493209439" name="1" state="play" width="1920">
+<videorect interactive="off" jump="0" layer="1" nH="1080" nW="1920" nX="0" nY="0" rectid="1493209456" rectname="视频">
+<video name="42024-熊七梅-我的梦[68mtv.com].mp4" path="97858971315328" position="full" seq="0" showtime="0" unrotate="FALSE"/>
+</videorect>
+</program>
+<meta>
+<files/>
+<fonts/>
+<tts/>
+</meta>
+</config>

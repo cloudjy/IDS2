@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="5" category="企业通用" name="企业通用05" desc="横:图片+文字+绿色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353744265" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="5" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<imagerect layer="2" nH="66" nW="200" nX="120" nY="80"
+		rectid="1353744427" rectname="图片区域(1)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FF0000" fontname="" fontsize="30" layer="3" marqueetype="5"
+		nH="790" nW="790" nX="133" nY="175" rectid="1353744814" rectname="文字区域"
+		speed="2" transparent="false" />
+	<imagerect layer="4" nH="790" nW="790" nX="987" nY="175"
+		rectid="1353744815" rectname="图片区域(2)" />
+</template>

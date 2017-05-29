@@ -1,0 +1,16 @@
+<opml version="1.0">
+<head>
+<title>eladies-新浪rss</title>
+</head>
+<body>
+<outline title="女性频道-新浪RSS" text="女性频道-新浪RSS">
+<outline text="女性要闻汇总" title="女性要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/eladies.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="美容美发" title="美容美发" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/gnspxw.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="服饰潮流" title="服饰潮流" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/fashion.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="美体瘦身" title="美体瘦身" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/body.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="情感婚姻" title="情感婚姻" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/marry.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="八卦" title="八卦" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/gossip.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="亲子" title="亲子" type="rss" xmlUrl="http://rss.sina.com.cn/eladies/son.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

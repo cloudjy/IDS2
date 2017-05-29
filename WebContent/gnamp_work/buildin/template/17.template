@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1920" id="17" category="企业通用" name="企业通用17" desc="竖:视频+紫色背景" width="1080">
+	<imagerect layer="1" nH="1920" nW="1080" nX="0" nY="0"
+		rectid="1353572830" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="17" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#FF0000" fontname="" fontsize="20" layer="2" marqueetype="3"
+		nH="230" nW="1080" nX="0" nY="83" rectid="1353573778" rectname="文字区域"
+		speed="0" transparent="false" />
+	<daterect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="3" nH="54" nW="466"
+		nX="347" nY="375" rectid="1353573779" rectname="日期区域" style="1"
+		transparent="true" />
+	<weatherlogorect layer="4" nH="68" nW="68" nX="506" nY="1591"
+		rectid="1353573781" rectname="天气图标区域" style="today" />
+	<weathertemprect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="5" nH="25" nW="198" nX="441" nY="1658" rectid="1353573782"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<weathertextrect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="6" nH="25" nW="164" nX="458" nY="1690" rectid="1353573783"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="7" nH="67" nW="210"
+		nX="435" nY="1736" rectid="1353573784" rectname="时间区域" style="0"
+		transparent="true" />
+	<marqueerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="8" marqueetype="2"
+		nH="54" nW="1064" nX="12" nY="1861" rectid="1353573785" rectname="文字区域(2)"
+		speed="3" transparent="false" />
+	<videorect layer="9" nH="720" nW="1080" nX="0" nY="446"
+		rectid="1353773791" rectname="视频区域" />
+</template>

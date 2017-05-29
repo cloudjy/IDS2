@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gnamp>
+	<context-path/>
+	
+	<dataSource>
+		<database>gnamp_v4</database>
+		<property name="url">
+			<value>jdbc:mysql://127.0.0.1:3306/gnamp_v4?useUnicode=true&amp;characterEncoding=utf-8</value>
+		</property>
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="username" value="root"/>
+		<property name="password" value=""/>
+		
+		<property name="initialSize" value="2"/>
+		<property name="maxActive" value="100"/>
+		<property name="maxIdle" value="5"/>
+		<property name="minIdle" value="2"/>
+		<property name="removeAbandoned" value="true"/> 
+		<property name="removeAbandonedTimeout" value="10"/> 
+		<property name="maxWait" value="1000"/>  
+	</dataSource>
+	<message>
+		<host>127.0.0.1</host>
+		<port>9091</port>
+	</message>
+</gnamp>

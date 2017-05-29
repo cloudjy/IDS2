@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="login" namespace="/Pages" extends="default">
+		<action name="login" class="com.gnamp.struts.action.LoginAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="error">/Pages/login.jsp</result>
+			<result name="success">/Pages/login.jsp</result>
+			<result name="validate">/Pages/Terminal.jsp</result>
+		</action>
+		<action name="uploadFileTest" class="com.gnamp.struts.action.TestUploadAction" method="flexUpLoadFile">
+			<interceptor-ref name="fileUpload">
+				<param name="allowedTypes">...</param> <!-- mime类型，多个用逗号分开 -->
+			</interceptor-ref>
+			<result>/welcome.jsp</result>
+			<result name="file" type="stream">
+				 <param name="inputName">downloadFile</param>
+				 <param name="contentType">image/jpeg</param>
+			</result>
+		</action>
+	</package>
+
+</struts>

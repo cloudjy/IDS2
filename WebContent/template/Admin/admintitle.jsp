@@ -1,0 +1,1 @@
+<title><s:text name="admintitle_a" /><%=com.gnamp.struts.filter.ContextListener.product%><s:text name="admintitle_b" /></title>

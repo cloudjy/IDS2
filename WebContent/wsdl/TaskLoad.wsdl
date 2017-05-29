@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://webservice.gnamp.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://webservice.gnamp.com" xmlns:intf="http://webservice.gnamp.com" xmlns:tns1="http://model.server.gnamp.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://webservice.gnamp.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://model.server.gnamp.com"/>
+   <element name="GetTaskDownLoadList">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetTaskDownLoadListResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetTaskDownLoadListReturn" type="tns1:LoopTask"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetDemandTaskDownLoadList">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetDemandTaskDownLoadListResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetDemandTaskDownLoadListReturn" type="tns1:DemandTask"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetPlugInTaskDownLoadList">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetPlugInTaskDownLoadListResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetPlugInTaskDownLoadListReturn" type="tns1:PluginTask"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetTaskAllFiles">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="task_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetTaskAllFilesResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetTaskAllFilesReturn" type="tns1:File"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetDemandTaskAllFiles">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="task_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetDemandTaskAllFilesResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetDemandTaskAllFilesReturn" type="tns1:File"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetPlugInTaskAllFiles">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="task_id" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetPlugInTaskAllFilesResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetPlugInTaskAllFilesReturn" type="tns1:File"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetGroupAllTerminals">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="groupid" type="xsd:int"/>
+      <element name="child" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetGroupAllTerminalsResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetGroupAllTerminalsReturn" type="tns1:Terminal"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetAllGroups">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="GetAllGroupsResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="GetAllGroupsReturn" type="tns1:Group"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+  <schema elementFormDefault="qualified" targetNamespace="http://model.server.gnamp.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType abstract="true" name="Task">
+    <sequence>
+     <element name="createTime" nillable="true" type="xsd:dateTime"/>
+     <element name="createUser" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="fileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="playVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="state" type="xsd:int"/>
+     <element name="taskId" type="xsd:int"/>
+     <element name="taskName" nillable="true" type="xsd:string"/>
+     <element name="taskVersion" nillable="true" type="xsd:dateTime"/>
+    </sequence>
+   </complexType>
+   <complexType name="LoopTask">
+    <complexContent>
+     <extension base="tns1:Task">
+      <sequence>
+       <element name="strategyVersion" nillable="true" type="xsd:dateTime"/>
+      </sequence>
+     </extension>
+    </complexContent>
+   </complexType>
+   <complexType name="DemandTask">
+    <complexContent>
+     <extension base="tns1:Task">
+      <sequence/>
+     </extension>
+    </complexContent>
+   </complexType>
+   <complexType name="PluginTask">
+    <complexContent>
+     <extension base="tns1:Task">
+      <sequence>
+       <element name="pluginCount" type="xsd:int"/>
+       <element name="pluginStyle" type="xsd:int"/>
+       <element name="startTime" nillable="true" type="xsd:dateTime"/>
+       <element name="stopTime" nillable="true" type="xsd:dateTime"/>
+      </sequence>
+     </extension>
+    </complexContent>
+   </complexType>
+   <complexType name="File">
+    <sequence>
+     <element name="categoryId" type="xsd:int"/>
+     <element name="categoryName" nillable="true" type="xsd:string"/>
+     <element name="checkState" type="xsd:int"/>
+     <element name="checkSum" type="xsd:long"/>
+     <element name="checkTime" nillable="true" type="xsd:dateTime"/>
+     <element name="checkUser" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="fileId" type="xsd:long"/>
+     <element name="fileName" nillable="true" type="xsd:string"/>
+     <element name="size" type="xsd:long"/>
+     <element name="type" type="xsd:int"/>
+     <element name="uploadTime" nillable="true" type="xsd:dateTime"/>
+     <element name="uploadUser" nillable="true" type="xsd:string"/>
+     <element name="useCount" type="xsd:int"/>
+     <element name="vender" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="Terminal">
+    <sequence>
+     <element name="aliveInterval" type="xsd:int"/>
+     <element name="appUpdated" type="xsd:int"/>
+     <element name="assignAppVersion" nillable="true" type="xsd:string"/>
+     <element name="assignConfigId" type="xsd:int"/>
+     <element name="assignConfigName" nillable="true" type="xsd:string"/>
+     <element name="assignConfigVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignDemandFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignDemandPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignDemandTaskId" type="xsd:int"/>
+     <element name="assignDemandTaskName" nillable="true" type="xsd:string"/>
+     <element name="assignDemandTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignKernelVersion" nillable="true" type="xsd:string"/>
+     <element name="assignLoopFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignLoopPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignLoopStrategyVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignLoopTaskId" type="xsd:int"/>
+     <element name="assignLoopTaskName" nillable="true" type="xsd:string"/>
+     <element name="assignLoopTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignPluginFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignPluginPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="assignPluginTaskId" type="xsd:int"/>
+     <element name="assignPluginTaskName" nillable="true" type="xsd:string"/>
+     <element name="assignPluginTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="captureSchedule" nillable="true" type="xsd:string"/>
+     <element name="cityId" type="xsd:int"/>
+     <element name="cityName" nillable="true" type="xsd:string"/>
+     <element name="configUpdated" type="xsd:int"/>
+     <element name="createTime" nillable="true" type="xsd:dateTime"/>
+     <element name="createUser" nillable="true" type="xsd:string"/>
+     <element name="curAppVersion" nillable="true" type="xsd:string"/>
+     <element name="curConfigId" type="xsd:int"/>
+     <element name="curConfigName" nillable="true" type="xsd:string"/>
+     <element name="curConfigVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curDemandFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curDemandPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curDemandTaskId" type="xsd:int"/>
+     <element name="curDemandTaskName" nillable="true" type="xsd:string"/>
+     <element name="curDemandTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curKernelVersion" nillable="true" type="xsd:string"/>
+     <element name="curLoopFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curLoopPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curLoopTaskId" type="xsd:int"/>
+     <element name="curLoopTaskName" nillable="true" type="xsd:string"/>
+     <element name="curLoopTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curPluginFileVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curPluginPlayVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curPluginTaskId" type="xsd:int"/>
+     <element name="curPluginTaskName" nillable="true" type="xsd:string"/>
+     <element name="curPluginTaskVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="curSubtitleVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="demandSchedule" nillable="true" type="xsd:string"/>
+     <element name="demandTaskUpdated" type="xsd:int"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="deviceId" type="xsd:long"/>
+     <element name="deviceName" nillable="true" type="xsd:string"/>
+     <element name="downloadFinished" type="xsd:long"/>
+     <element name="downloadTotal" type="xsd:long"/>
+     <element name="downloadType" type="xsd:int"/>
+     <element name="groupId" type="xsd:int"/>
+     <element name="groupName" nillable="true" type="xsd:string"/>
+     <element name="kernelUpdated" type="xsd:int"/>
+     <element name="lastAlive" nillable="true" type="xsd:dateTime"/>
+     <element name="lastDownload" nillable="true" type="xsd:dateTime"/>
+     <element name="lastPatrol" nillable="true" type="xsd:dateTime"/>
+     <element name="logoffTime" nillable="true" type="xsd:dateTime"/>
+     <element name="logonTime" nillable="true" type="xsd:dateTime"/>
+     <element name="loopTaskUpdated" type="xsd:int"/>
+     <element name="onlineState" type="xsd:int"/>
+     <element name="pluginTaskUpdated" type="xsd:int"/>
+     <element name="powerOff" type="xsd:int"/>
+     <element name="powerOn" type="xsd:int"/>
+     <element name="restSchedule" nillable="true" type="xsd:string"/>
+     <element name="scheduleVersion" nillable="true" type="xsd:dateTime"/>
+     <element name="standBySchedule" nillable="true" type="xsd:string"/>
+     <element name="subtitle" nillable="true" type="xsd:string"/>
+     <element name="subtitleUpdated" type="xsd:int"/>
+     <element name="subtitleVersion" nillable="true" type="xsd:dateTime"/>
+    </sequence>
+   </complexType>
+   <complexType name="Group">
+    <sequence>
+     <element name="childNum" type="xsd:int"/>
+     <element name="createTime" nillable="true" type="xsd:dateTime"/>
+     <element name="createUser" nillable="true" type="xsd:string"/>
+     <element name="depth" type="xsd:int"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="deviceNum" type="xsd:int"/>
+     <element name="groupId" type="xsd:int"/>
+     <element name="groupName" nillable="true" type="xsd:string"/>
+     <element name="parentId" type="xsd:int"/>
+     <element name="parentName" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="GetDemandTaskDownLoadListResponse">
+
+      <wsdl:part element="impl:GetDemandTaskDownLoadListResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetTaskAllFilesRequest">
+
+      <wsdl:part element="impl:GetTaskAllFiles" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetDemandTaskAllFilesRequest">
+
+      <wsdl:part element="impl:GetDemandTaskAllFiles" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetPlugInTaskAllFilesRequest">
+
+      <wsdl:part element="impl:GetPlugInTaskAllFiles" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetTaskDownLoadListResponse">
+
+      <wsdl:part element="impl:GetTaskDownLoadListResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetGroupAllTerminalsResponse">
+
+      <wsdl:part element="impl:GetGroupAllTerminalsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetPlugInTaskDownLoadListResponse">
+
+      <wsdl:part element="impl:GetPlugInTaskDownLoadListResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetPlugInTaskAllFilesResponse">
+
+      <wsdl:part element="impl:GetPlugInTaskAllFilesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetTaskDownLoadListRequest">
+
+      <wsdl:part element="impl:GetTaskDownLoadList" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetDemandTaskDownLoadListRequest">
+
+      <wsdl:part element="impl:GetDemandTaskDownLoadList" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetAllGroupsRequest">
+
+      <wsdl:part element="impl:GetAllGroups" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetTaskAllFilesResponse">
+
+      <wsdl:part element="impl:GetTaskAllFilesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetGroupAllTerminalsRequest">
+
+      <wsdl:part element="impl:GetGroupAllTerminals" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetPlugInTaskDownLoadListRequest">
+
+      <wsdl:part element="impl:GetPlugInTaskDownLoadList" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetDemandTaskAllFilesResponse">
+
+      <wsdl:part element="impl:GetDemandTaskAllFilesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="GetAllGroupsResponse">
+
+      <wsdl:part element="impl:GetAllGroupsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="TaskLoad">
+
+      <wsdl:operation name="GetTaskDownLoadList">
+
+         <wsdl:input message="impl:GetTaskDownLoadListRequest" name="GetTaskDownLoadListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetTaskDownLoadListResponse" name="GetTaskDownLoadListResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetDemandTaskDownLoadList">
+
+         <wsdl:input message="impl:GetDemandTaskDownLoadListRequest" name="GetDemandTaskDownLoadListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetDemandTaskDownLoadListResponse" name="GetDemandTaskDownLoadListResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetPlugInTaskDownLoadList">
+
+         <wsdl:input message="impl:GetPlugInTaskDownLoadListRequest" name="GetPlugInTaskDownLoadListRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetPlugInTaskDownLoadListResponse" name="GetPlugInTaskDownLoadListResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetTaskAllFiles">
+
+         <wsdl:input message="impl:GetTaskAllFilesRequest" name="GetTaskAllFilesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetTaskAllFilesResponse" name="GetTaskAllFilesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetDemandTaskAllFiles">
+
+         <wsdl:input message="impl:GetDemandTaskAllFilesRequest" name="GetDemandTaskAllFilesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetDemandTaskAllFilesResponse" name="GetDemandTaskAllFilesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetPlugInTaskAllFiles">
+
+         <wsdl:input message="impl:GetPlugInTaskAllFilesRequest" name="GetPlugInTaskAllFilesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetPlugInTaskAllFilesResponse" name="GetPlugInTaskAllFilesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetGroupAllTerminals">
+
+         <wsdl:input message="impl:GetGroupAllTerminalsRequest" name="GetGroupAllTerminalsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetGroupAllTerminalsResponse" name="GetGroupAllTerminalsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetAllGroups">
+
+         <wsdl:input message="impl:GetAllGroupsRequest" name="GetAllGroupsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:GetAllGroupsResponse" name="GetAllGroupsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="TaskLoadSoapBinding" type="impl:TaskLoad">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="GetTaskDownLoadList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetTaskDownLoadListRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetTaskDownLoadListResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetDemandTaskDownLoadList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetDemandTaskDownLoadListRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetDemandTaskDownLoadListResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetPlugInTaskDownLoadList">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetPlugInTaskDownLoadListRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetPlugInTaskDownLoadListResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetTaskAllFiles">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetTaskAllFilesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetTaskAllFilesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetDemandTaskAllFiles">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetDemandTaskAllFilesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetDemandTaskAllFilesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetPlugInTaskAllFiles">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetPlugInTaskAllFilesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetPlugInTaskAllFilesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetGroupAllTerminals">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetGroupAllTerminalsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetGroupAllTerminalsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="GetAllGroups">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="GetAllGroupsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="GetAllGroupsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="TaskLoadService">
+
+      <wsdl:port binding="impl:TaskLoadSoapBinding" name="TaskLoad">
+
+         <wsdlsoap:address location="http://localhost:8080/gnamp_web/services/TaskLoad"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

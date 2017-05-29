@@ -1,0 +1,18 @@
+<opml version="1.0">
+<head>
+<title>news-新浪rss</title>
+</head>
+<body>
+<outline title="新闻中心-新浪RSS" text="新闻中心-新浪RSS">
+<outline text="新闻要闻" title="新闻要闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/marquee/ddt.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="国内要闻" title="国内要闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/china/focus15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="国际要闻" title="国际要闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/world/focus15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="社会新闻" title="社会新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/society/focus15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="港澳台新闻" title="港澳台新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/china/hktaiwan15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="社会与法" title="社会与法" type="rss" xmlUrl="http://rss.sina.com.cn/news/society/law15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="社会万象" title="社会万象" type="rss" xmlUrl="http://rss.sina.com.cn/news/society/misc15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="真情时刻" title="真情时刻" type="rss" xmlUrl="http://rss.sina.com.cn/news/society/feeling15.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="奇闻轶事" title="奇闻轶事" type="rss" xmlUrl="http://rss.sina.com.cn/news/society/wonder15.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

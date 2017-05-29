@@ -1,0 +1,25 @@
+﻿
+/*dialog
+-----------------------------------------*/
+
+
+div.ipubs-dialog-alert { color: Red; padding: 1px; background: #F2F2F2; border: 0px solid #F2F2F2; color: #EEE; border: 1px solid #404040; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+div.ipubs-dialog-alert .ui-widget-header { border: 0px solid #404040; color: white; font-weight: bold; }
+div.ipubs-dialog-alert .ui-dialog-titlebar { padding: 0px; margin: 0px 0px; background: url(../images/tcBt2.gif) repeat-x; height: 35px; line-height: 30px; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+div.ipubs-dialog-alert span.ui-dialog-title { margin: 0px 1px 0px 1.2em; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+.ipubs-dialog-alert .ui-widget-content { background: #F2F2F2; border: 0px solid #404040; border-bottom: #CCC solid 1px; color: #333; }
+.ipubs-dialog-alert .ui-dialog-content { line-height: 16px; background: #F2F2F2; border-bottom: #CCC solid 1px; }
+div.ipubs-dialog-alert .ui-dialog-buttonpane { text-align: center; background: #FFF; margin: 1px 0 0 0; background-image: none; }
+.ipubs-dialog-alert .ui-dialog-buttonpane .ui-dialog-buttonset { float: none; text-align: center; }
+.ipubs-dialog-content { text-align: center; font-size:14px; vertical-align:middle; line-height:100%; }
+
+div.ipubs-dialog-confirm{ color: Red; padding: 1px; background: #F2F2F2; border: 0px solid #F2F2F2; color: #EEE; border: 1px solid #404040; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+div.ipubs-dialog-confirm .ui-widget-header { border: 0px solid #404040; color: white; font-weight: bold; }
+div.ipubs-dialog-confirm .ui-dialog-titlebar { padding: 0px; margin: 0px 0px; background: url(../images/tcBt2.gif) repeat-x; height: 35px; line-height: 30px; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+div.ipubs-dialog-confirm span.ui-dialog-title { margin: 0px 1px 0px 1.2em; font-family: "微软雅黑", "微軟雅黑", "Calibri", "Arial";}
+.ipubs-dialog-confirm .ui-widget-content { background: #F2F2F2; border: 0px solid #404040; border-bottom: #CCC solid 1px; color: #333; }
+.ipubs-dialog-confirm .ui-dialog-content { line-height: 16px; background: #F2F2F2; border-bottom: #CCC solid 1px; }
+.ipubs-dialog-confirm .ui-dialog-buttonpane { text-align: center; background: #FFF; margin: 1px 0 0 0; background-image: none; }
+.ipubs-dialog-confirm .ui-dialog-buttonpane .ui-dialog-buttonset { float: none; text-align: center; }
+.ipubs-dialog-content { text-align: center; font-size:14px; vertical-align:middle; line-height:100%; }
+

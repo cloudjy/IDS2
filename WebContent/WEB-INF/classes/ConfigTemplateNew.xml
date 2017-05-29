@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items>
+	<group name="服务器设置">
+		<item name="domain" desc="服务器地址" defaultvalue="192.168.1.2" checkexpression="IP or URL" samplevalue="" />
+		<item name="control" desc="消息端口" defaultvalue="9090" checkexpression="80, 9090, ..." samplevalue="" />
+		<item name="port" desc="内容端口" defaultvalue="80" checkexpression="80, 8080, ..." samplevalue="" />
+		<item name="activedir" desc="活动目录" defaultvalue="" checkexpression="" samplevalue="" />
+	</group>
+	<group name="网络设置 ">
+		<item name="gprs" desc="GSM-GPRS网络" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+		</item>
+		<item name="evdo" desc="EVDO网络" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+			<item name="account" desc="EVDO账号" defaultvalue="" checkexpression="ctnet@mycdma.cn" samplevalue="" />
+			<item name="password" desc="EVDO密码" defaultvalue="" checkexpression="vnet.mobi" samplevalue="" />
+		</item>
+		<item name="wcdma" desc="WCDMA网络" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+			<item name="apn" desc="WCDMA APN" defaultvalue="" checkexpression="3GNET or others" samplevalue="" />
+			<item name="number" desc="WCDMA号码" defaultvalue="" checkexpression="*99# or others" samplevalue="" />
+		</item>
+		<item name="tdcdma" desc="TDCDMA网络" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+		</item>
+		<item name="wifi" desc="WiFi网络" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+			<item name="ssid" desc="WiFi AP SSID" defaultvalue="" checkexpression="SSID Name" samplevalue="" />
+			<item name="auth" desc="WiFi认证方式" defaultvalue="" checkexpression="open, shared, wpapsk..." samplevalue="" />
+			<item name="encrypt" desc="WiFi加密方式" defaultvalue="" checkexpression="none, tkip, aes, wep..." samplevalue="" />
+			<item name="key" desc="WiFi加密密钥" defaultvalue="" checkexpression="user specified" samplevalue="" />
+		</item>
+		<item name="ethernet" desc="以太网网络" defaultvalue="enable" checkexpression="disable or enable" samplevalue="" >
+			<select>
+				<option value="enable">启用</option>
+				<option value="disable">关闭</option>
+			</select>
+			<item name="mode" desc="以太网IP模式" defaultvalue="dhcp" checkexpression="dhcp or static" samplevalue="" >
+				<select>
+					<option value="dhcp">自动获取</option>
+					<option value="static">静态地址</option>
+				</select>
+			</item>
+			<item name="ip" desc="以太网IP地址" defaultvalue="" checkexpression="192.168.1.100" samplevalue="" />
+			<item name="mask" desc="以太网子网掩码" defaultvalue="" checkexpression="255.255.255.0" samplevalue="" />
+			<item name="gate" desc="以太网网关" defaultvalue="" checkexpression="192.168.1.1" samplevalue="" />
+			<item name="dns" desc="以太网域名服务器" defaultvalue="" checkexpression="192.168.1.1" samplevalue="" />
+		</item>
+	</group>
+	<group name="终端设置">
+		<item name="pontime" desc="每天开机时间" defaultvalue="00:00" checkexpression="00:00~23:59" samplevalue="" />
+		<item name="pofftime" desc="每天关机时间" defaultvalue="00:00" checkexpression="00:00~23:59" samplevalue="" />
+		<item name="power" desc="周开关机时间" defaultvalue="" checkexpression="[0~6,hh:mm,hh:mm]" samplevalue="" />
+		<item name="heartbeat" desc="心跳间隔(秒)" defaultvalue="60" checkexpression="60~3600" samplevalue="" />
+		<item name="weather_interval" desc="天气间隔(秒)" defaultvalue="5" checkexpression="3~10" samplevalue="" />
+		<item name="rotation" desc="顺时针旋转" defaultvalue="0" checkexpression="0, 90, 180, 270" samplevalue="" />
+		<item name="time_zone" desc="时区" defaultvalue="8" checkexpression="-12~12" samplevalue="" />
+		<item name="play_log" desc="播放日志(天)" defaultvalue="60" checkexpression="off，15，30，60，forever" samplevalue="" />
+		<item name="net_dog" desc="网络监控(次)" defaultvalue="off" checkexpression="off, 5, 10, 15, 20" samplevalue="" />
+		<item name="play_point" desc="播放记忆" defaultvalue="on" checkexpression="on，off" samplevalue="" />
+		<item name="volume" desc="分时段音量" defaultvalue="" checkexpression="[00:00,10:00,8] [15:00,23:59,10]" samplevalue="" />
+		<item name="bright" desc="分时段亮度" defaultvalue="" checkexpression="[00:00,10:00,8] [10:00,23:59,10]" samplevalue="" />
+		<item name="download" desc="下载时段" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+		<item name="demand" desc="点播时段" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+		<item name="standby" desc="待机时段" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+	</group>
+</items>

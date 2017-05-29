@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1920" id="18" category="企业通用" name="企业通用18" desc="竖:长图片+红色背景" width="1080">
+	<imagerect layer="1" nH="1920" nW="1080" nX="0" nY="0"
+		rectid="1353554105" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="18" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#1D1916" fontname="" fontsize="20" layer="2" marqueetype="3"
+		nH="54" nW="331" nX="16" nY="56" rectid="1353554434" rectname="文字区域"
+		speed="0" transparent="false" />
+	<weatherlogorect layer="3" nH="55" nW="55" nX="640" nY="20"
+		rectid="1353554435" rectname="天气图标区域" style="today" />
+	<weathertextrect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="4" nH="25" nW="104" nX="702" nY="21" rectid="1353554436"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<weathertemprect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="5" nH="25" nW="117" nX="697" nY="50" rectid="1353554437"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<timerect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="6" nH="67" nW="167"
+		nX="891" nY="16" rectid="1353554438" rectname="时间区域" style="0"
+		transparent="true" />
+	<daterect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#99191A" fontname="" fontsize="20" layer="7" nH="38" nW="247"
+		nX="811" nY="106" rectid="1353554439" rectname="日期区域" style="1"
+		transparent="true" />
+	<imagerect layer="8" nH="1600" nW="900" nX="88" nY="196"
+		rectid="1353554440" rectname="图片区域(1)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="9" marqueetype="2"
+		nH="58" nW="1055" nX="13" nY="1853" rectid="1353554441" rectname="文字区域(1)"
+		speed="3" transparent="false" />
+</template>

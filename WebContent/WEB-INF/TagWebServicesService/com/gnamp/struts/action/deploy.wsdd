@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from TagWebServicesService WSDL service -->
+
+  <service name="TagWebServices" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://action.struts.gnamp.com"/>
+      <parameter name="wsdlServiceElement" value="TagWebServicesService"/>
+      <parameter name="schemaQualified" value="http://action.struts.gnamp.com"/>
+      <parameter name="wsdlServicePort" value="TagWebServices"/>
+      <parameter name="className" value="com.gnamp.struts.action.TagWebServices"/>
+      <parameter name="wsdlPortType" value="TagWebServices"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://action.struts.gnamp.com" xmlns:retNS="http://action.struts.gnamp.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="addTextOfTag" qname="operNS:addTextOfTag" returnQName="retNS:addTextOfTagReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:id" type="tns:int"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:text" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://action.struts.gnamp.com" xmlns:retNS="http://action.struts.gnamp.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="addFileOfTag" qname="operNS:addFileOfTag" returnQName="retNS:addFileOfTagReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:id" type="tns:int"/>
+        <parameter xmlns:pns="http://action.struts.gnamp.com" xmlns:tns="http://action.struts.gnamp.com" qname="pns:file" type="tns:UploadFile"/>
+      </operation>
+      <parameter name="allowedMethods" value="addTextOfTag addFileOfTag"/>
+
+      <typeMapping xmlns:ns="http://action.struts.gnamp.com" qname="ns:UploadFile" type="java:com.gnamp.struts.action.UploadFile" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

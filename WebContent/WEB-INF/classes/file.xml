@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="filepack" namespace="/Pages" extends="default">
+		
+		<action name="file" class="com.gnamp.struts.action.FileAction">
+			<result name="validate">index</result>
+			<result name="success">/Pages/filemana/filelist.jsp</result>
+			<result name="preview">/Pages/filemana/preview.jsp</result>
+			<result name="upload">/Pages/filemana/fileuploadflex.jsp</result>
+			<result name="jupload">/Pages/filemana/fileupload.jsp</result>
+			<result name="fileedit">/Pages/filemana/fileedit.jsp</result>
+			<result name="fileaudit">/Pages/filemana/fileaudit.jsp</result>
+			<result name="selectfile">/Pages/filemana/selectfile.jsp</result>
+			<result name="mms">/Pages/filemana/mms.jsp</result>
+		</action>
+
+		<action name="filecate" class="com.gnamp.struts.action.CategoryAction">
+			<result name="add">/Pages/filemana/filetreeadd.jsp</result>
+			<result name="edit">/Pages/filemana/filetreeedit.jsp</result>
+		</action>
+		<action name="fileupload" class="com.gnamp.struts.action.FileUploadAction">
+        </action>
+        <action name="flexfileupload" class="com.gnamp.struts.action.FileFlexUploadAction">
+        </action>
+        <action name="image" class="com.gnamp.struts.action.ImageAction" method="showfile">
+        </action>
+	</package>
+</struts>
+

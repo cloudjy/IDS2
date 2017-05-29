@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="14" category="企业通用" name="企业通用14" desc="横:视频+图片+文字+绿色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353549674" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="14" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<imagerect layer="2" nH="744" nW="437" nX="47" nY="160"
+		rectid="1353549961" rectname="图片区域(1)" />
+	<videorect layer="3" nH="744" nW="1322" nX="545" nY="160"
+		rectid="1353549962" rectname="视频区域" />
+	<marqueerect align_h="center" align_v="center" backcolor="#0C82AD"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="4" marqueetype="2"
+		nH="75" nW="1576" nX="336" nY="993" rectid="1353549963" rectname="文字区域"
+		speed="3" transparent="false" />
+	<imagerect layer="5" nH="84" nW="244" nX="34" nY="48" rectid="1353549964"
+		rectname="图片区域(2)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="6" marqueetype="3"
+		nH="56" nW="191" nX="44" nY="1000" rectid="1353770383" rectname="文字区域(1)"
+		speed="0" transparent="false" />
+</template>

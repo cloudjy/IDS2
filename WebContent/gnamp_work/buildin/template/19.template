@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1920" id="19" category="企业通用" name="企业通用19" desc="竖:长图片+灰色背景" width="1080">
+	<imagerect layer="1" nH="1920" nW="1080" nX="0" nY="0"
+		rectid="1353551983" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="19" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#1E1C1D" fontname="" fontsize="20" layer="2" marqueetype="3"
+		nH="60" nW="327" nX="20" nY="34" rectid="1353552436" rectname="文字区域"
+		speed="0" transparent="false" />
+	<weatherlogorect layer="3" nH="67" nW="67" nX="658" nY="27"
+		rectid="1353552437" rectname="天气图标区域" style="today" />
+	<weathertextrect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#1E1C1D" fontname="" fontsize="20"
+		layer="4" nH="28" nW="96" nX="741" nY="32" rectid="1353552438"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<weathertemprect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#1E1C1D" fontname="" fontsize="20"
+		layer="5" nH="30" nW="129" nX="725" nY="60" rectid="1353552439"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#1E1C1D" fontname="" fontsize="20" layer="6" nH="63" nW="176"
+		nX="883" nY="34" rectid="1353552440" rectname="时间区域" style="0"
+		transparent="true" />
+	<imagerect layer="7" nH="1600" nW="900" nX="90" nY="190"
+		rectid="1353552443" rectname="图片区域(2)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#666666"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="8" marqueetype="2"
+		nH="62" nW="1051" nX="17" nY="1854" rectid="1353552444" rectname="文字区域(1)"
+		speed="3" transparent="false" />
+</template>

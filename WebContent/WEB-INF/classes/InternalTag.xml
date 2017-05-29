@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<internal id="大类">
+	<category id="7701" categoryid="0" name="新闻中心">
+		<category id="77011" name="新闻要闻" categoryid="7701">
+			<tag sourceid="770111" name="新闻中心-新闻要闻-标题" descp="" version="" catid="77011"
+				type="3" state="0" />
+		</category>
+		<category id="77012" name="国内要闻" categoryid="7701">
+			<tag sourceid="770121" name="新闻中心-国内要闻-标题" descp="" version="" catid="77012"
+				type="3" state="0" />
+		</category>
+		<category id="77013" name="国际要闻" categoryid="7701">
+			<tag sourceid="770131" name="新闻中心-国际要闻-标题" descp="" version="" catid="77013"
+				type="3" state="0" />
+		</category>
+		<category id="77014" name="社会新闻" categoryid="7701">
+			<tag sourceid="770141" name="新闻中心-社会新闻-标题" descp="" version="" catid="77014"
+				type="3" state="0" />
+		</category>
+		<category id="77015" name="港澳台新闻" categoryid="7701">
+			<tag sourceid="770151" name="新闻中心-港澳台新闻-标题" descp="" version="" catid="77015"
+				type="3" state="0" />
+		</category>
+		<category id="77016" name="社会万象" categoryid="7701">
+			<tag sourceid="770161" name="新闻中心-社会万象-标题" descp="" version="" catid="77016"
+				type="3" state="0" />
+		</category>
+		<category id="77017" name="真情时刻" categoryid="7701">
+			<tag sourceid="770171" name="新闻中心-真情时刻-标题" descp="" version="" catid="77017"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7702" categoryid="0" name="汽车新闻">
+		<category id="77021" name="焦点新闻" categoryid="7702">
+			<tag sourceid="770211" name="汽车新闻-焦点新闻-标题" descp="" version="" catid="77021"
+				type="3" state="0" />
+		</category>
+		<category id="77022" name="行业动态" categoryid="7702">
+			<tag sourceid="770221" name="汽车新闻-行业动态-标题" descp="" version="" catid="77022"
+				type="3" state="0" />
+		</category>
+		<category id="77023" name="购车指导" categoryid="7702">
+			<tag sourceid="770231" name="汽车新闻-购车指导-标题" descp="" version="" catid="77023"
+				type="3" state="0" />
+		</category>
+		<category id="77024" name="新车上市" categoryid="7702">
+			<tag sourceid="770241" name="汽车新闻-新车上市-标题" descp="" version="" catid="77024"
+				type="3" state="0" />
+		</category>
+		<category id="77025" name="车市·降价" categoryid="7702">
+			<tag sourceid="770251" name="汽车新闻-车市·降价-标题" descp="" version="" catid="77025"
+				type="3" state="0" />
+		</category>
+		<category id="77026" name="企业新闻" categoryid="7702">
+			<tag sourceid="770261" name="汽车新闻-企业新闻-标题" descp="" version="" catid="77026"
+				type="3" state="0" />
+		</category>
+		<category id="77027" name="汽车养护" categoryid="7702">
+			<tag sourceid="770271" name="汽车新闻-汽车养护-标题" descp="" version="" catid="77027"
+				type="3" state="0" />
+		</category>
+
+		<category id="77028" name="汽车召回" categoryid="7702">
+			<tag sourceid="770281" name="汽车新闻-汽车召回-标题" descp="" version="" catid="77028"
+				type="3" state="0" />
+		</category>
+		<category id="77029" name="汽车配件" categoryid="7702">
+			<tag sourceid="770291" name="汽车新闻-汽车配件-标题" descp="" version="" catid="77029"
+				type="3" state="0" />
+		</category>
+		<category id="27011" name="汽车用品" categoryid="7702">
+			<tag sourceid="270111" name="汽车新闻-汽车用品-标题" descp="" version="" catid="27011"
+				type="3" state="0" />
+		</category>
+		<category id="27012" name="改装" categoryid="7702">
+			<tag sourceid="270121" name="汽车新闻-改装-标题" descp="" version="" catid="27012"
+				type="3" state="0" />
+		</category>
+		<category id="27013" name="汽车轮胎" categoryid="7702">
+			<tag sourceid="270131" name="汽车新闻-汽车轮胎-标题" descp="" version="" catid="27013"
+				type="3" state="0" />
+		</category>
+		<category id="27014" name="交通" categoryid="7702">
+			<tag sourceid="270141" name="汽车新闻-交通-标题" descp="" version="" catid="27014"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7703" categoryid="0" name="女性新闻">
+		<category id="77031" name="女性要闻汇总" categoryid="7703">
+			<tag sourceid="770311" name="女性新闻-女性要闻汇总-标题" descp="" version="" catid="77031"
+				type="3" state="0" />
+		</category>
+		<category id="77032" name="美容美发" categoryid="7703">
+			<tag sourceid="770321" name="女性新闻-美容美发-标题" descp="" version="" catid="77032"
+				type="3" state="0" />
+		</category>
+		<category id="77033" name="服饰潮流" categoryid="7703">
+			<tag sourceid="770331" name="女性新闻-服饰潮流-标题" descp="" version="" catid="77033"
+				type="3" state="0" />
+		</category>
+		<category id="77034" name="美体瘦身" categoryid="7703">
+			<tag sourceid="770341" name="女性新闻-美体瘦身-标题" descp="" version="" catid="77034"
+				type="3" state="0" />
+		</category>
+		<category id="77035" name="情感婚姻" categoryid="7703">
+			<tag sourceid="770351" name="女性新闻-情感婚姻-标题" descp="" version="" catid="77035"
+				type="3" state="0" />
+		</category>
+		<category id="77036" name="八卦" categoryid="7703">
+			<tag sourceid="770361" name="女性新闻-八卦-标题" descp="" version="" catid="77036"
+				type="3" state="0" />
+		</category>
+		<category id="77037" name="亲子" categoryid="7703">
+			<tag sourceid="770371" name="女性新闻-亲子-标题" descp="" version="" catid="77037"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7704" categoryid="0" name="娱乐新闻">
+		<category id="77041" name="娱乐要闻汇总" categoryid="7704">
+			<tag sourceid="770411" name="娱乐新闻-娱乐要闻汇总-标题" descp="" version="" catid="77041"
+				type="3" state="0" />
+		</category>
+		<category id="77042" name="焦点新闻" categoryid="7704">
+			<tag sourceid="770421" name="娱乐新闻-焦点新闻-标题" descp="" version="" catid="77042"
+				type="3" state="0" />
+		</category>
+		<category id="77043" name="音乐" categoryid="7704">
+			<tag sourceid="770431" name="娱乐新闻-音乐-标题" descp="" version="" catid="77043"
+				type="3" state="0" />
+		</category>
+		<category id="77044" name="电视前沿" categoryid="7704">
+			<tag sourceid="770441" name="娱乐新闻-电视前沿-标题" descp="" version="" catid="77044"
+				type="3" state="0" />
+		</category>
+		<category id="77045" name="电影宝库" categoryid="7704">
+			<tag sourceid="770451" name="娱乐新闻-电影宝库-标题" descp="" version="" catid="77045"
+				type="3" state="0" />
+		</category>
+		<category id="77046" name="明星全接触" categoryid="7704">
+			<tag sourceid="770461" name="娱乐新闻-明星全接触-标题" descp="" version="" catid="77046"
+				type="3" state="0" />
+		</category>
+		<category id="77047" name="内地明星" categoryid="7704">
+			<tag sourceid="770471" name="娱乐新闻-内地明星-标题" descp="" version="" catid="77047"
+				type="3" state="0" />
+		</category>
+		<category id="77048" name="港台明星" categoryid="7704">
+			<tag sourceid="770481" name="娱乐新闻-港台明星-标题" descp="" version="" catid="77048"
+				type="3" state="0" />
+		</category>
+		<category id="77049" name="日韩明星" categoryid="7704">
+			<tag sourceid="770491" name="娱乐新闻-日韩明星-标题" descp="" version="" catid="77049"
+				type="3" state="0" />
+		</category>
+		<category id="47011" name="欧美明星" categoryid="7704">
+			<tag sourceid="470111" name="娱乐新闻-欧美明星-标题" descp="" version="" catid="47011"
+				type="3" state="0" />
+		</category>
+
+	</category>
+	<category id="7705" categoryid="0" name="财经新闻">
+		<category id="77051" name="财经要闻汇总" categoryid="7705">
+			<tag sourceid="770511" name="财经新闻-财经要闻汇总-标题" descp="" version="" catid="77051"
+				type="3" state="0" />
+		</category>
+		<category id="77052" name="焦点新闻" categoryid="7705">
+			<tag sourceid="770521" name="财经新闻-焦点新闻-标题" descp="" version="" catid="77052"
+				type="3" state="0" />
+		</category>
+		<category id="77053" name="股市及时雨" categoryid="7705">
+			<tag sourceid="770531" name="财经新闻-股市及时雨-标题" descp="" version="" catid="77053"
+				type="3" state="0" />
+		</category>
+		<category id="77054" name="股票要闻汇总" categoryid="7705">
+			<tag sourceid="770541" name="财经新闻-股票要闻汇总-标题" descp="" version="" catid="77054"
+				type="3" state="0" />
+		</category>
+		<category id="77055" name="基金要闻" categoryid="7705">
+			<tag sourceid="770551" name="财经新闻-基金要闻-标题" descp="" version="" catid="77055"
+				type="3" state="0" />
+		</category>
+		<category id="77056" name="理财要闻" categoryid="7705">
+			<tag sourceid="770561" name="财经新闻-理财要闻-标题" descp="" version="" catid="77056"
+				type="3" state="0" />
+		</category>
+		<category id="77057" name="美股快报" categoryid="7705">
+			<tag sourceid="770571" name="财经新闻-美股快报-标题" descp="" version="" catid="77057"
+				type="3" state="0" />
+		</category>
+		<category id="77058" name="港股快讯" categoryid="7705">
+			<tag sourceid="770581" name="财经新闻-港股快讯-标题" descp="" version="" catid="77058"
+				type="3" state="0" />
+		</category>
+		<category id="77059" name="期货要闻" categoryid="7705">
+			<tag sourceid="770591" name="财经新闻-期货要闻-标题" descp="" version="" catid="77059"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7706" categoryid="0" name="军事新闻">
+		<category id="77061" name="军事要闻汇总" categoryid="7706">
+			<tag sourceid="770611" name="军事新闻-军事要闻汇总-标题" descp="" version="" catid="77061"
+				type="3" state="0" />
+		</category>
+		<category id="77062" name="焦点新闻" categoryid="7706">
+			<tag sourceid="770621" name="军事新闻-焦点新闻-标题" descp="" version="" catid="77062"
+				type="3" state="0" />
+		</category>
+		<category id="77063" name="国际军情" categoryid="7706">
+			<tag sourceid="770631" name="军事新闻-国际军情-标题" descp="" version="" catid="77063"
+				type="3" state="0" />
+		</category>
+		<category id="77064" name="中国军情" categoryid="7706">
+			<tag sourceid="770641" name="军事新闻-中国军情-标题" descp="" version="" catid="77064"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7707" categoryid="0" name="体育新闻">
+		<category id="77071" name="体育要闻汇总" categoryid="7707">
+			<tag sourceid="770711" name="体育新闻-体育要闻汇总-标题" descp="" version="" catid="77071"
+				type="3" state="0" />
+		</category>
+		<category id="77072" name="国际足坛" categoryid="7707">
+			<tag sourceid="770721" name="体育新闻-国际足坛-标题" descp="" version="" catid="77072"
+				type="3" state="0" />
+		</category>
+		<category id="77073" name="意甲" categoryid="7707">
+			<tag sourceid="770731" name="体育新闻-意甲-标题" descp="" version="" catid="77073"
+				type="3" state="0" />
+		</category>
+		<category id="77074" name="英超" categoryid="7707">
+			<tag sourceid="770741" name="体育新闻-英超-标题" descp="" version="" catid="77074"
+				type="3" state="0" />
+		</category>
+		<category id="77075" name="西甲" categoryid="7707">
+			<tag sourceid="770751" name="体育新闻-西甲-标题" descp="" version="" catid="77075"
+				type="3" state="0" />
+		</category>
+		<category id="77076" name="德甲、法甲" categoryid="7707">
+			<tag sourceid="770761" name="体育新闻-德甲、法甲-标题" descp="" version="" catid="77076"
+				type="3" state="0" />
+		</category>
+		<category id="77077" name="五洲热报" categoryid="7707">
+			<tag sourceid="770771" name="体育新闻-五洲热报-标题" descp="" version="" catid="77077"
+				type="3" state="0" />
+		</category>
+		<category id="77078" name="精彩图片" categoryid="7707">
+			<tag sourceid="770781" name="体育新闻-精彩图片-标题" descp="" version="" catid="77078"
+				type="3" state="0" />
+		</category>
+		<category id="77079" name="国内足坛" categoryid="7707">
+			<tag sourceid="770791" name="体育新闻-国内足坛-标题" descp="" version="" catid="77079"
+				type="3" state="0" />
+		</category>
+		<category id="87011" name="中国之队" categoryid="7707">
+			<tag sourceid="870111" name="体育新闻-中国之队-标题" descp="" version="" catid="87011"
+				type="3" state="0" />
+		</category>
+		<category id="87012" name="篮球新闻" categoryid="7707">
+			<tag sourceid="870121" name="体育新闻-篮球新闻-标题" descp="" version="" catid="87012"
+				type="3" state="0" />
+		</category>
+		<category id="87013" name="NBA新闻" categoryid="7707">
+			<tag sourceid="870131" name="体育新闻-NBA新闻-标题" descp="" version="" catid="87013"
+				type="3" state="0" />
+		</category>
+		<category id="87014" name="CBA新闻" categoryid="7707">
+			<tag sourceid="870141" name="体育新闻-CBA新闻-标题" descp="" version="" catid="87014"
+				type="3" state="0" />
+		</category>
+		<category id="87015" name="综合体育" categoryid="7707">
+			<tag sourceid="870151" name="体育新闻-综合体育-标题" descp="" version="" catid="87015"
+				type="3" state="0" />
+		</category>
+		<category id="87016" name="彩票新闻" categoryid="7707">
+			<tag sourceid="870161" name="体育新闻-彩票新闻-标题" descp="" version="" catid="87016"
+				type="3" state="0" />
+		</category>
+		<category id="87017" name="高尔夫新闻" categoryid="7707">
+			<tag sourceid="870171" name="体育新闻-高尔夫新闻-标题" descp="" version="" catid="87017"
+				type="3" state="0" />
+		</category>
+		<category id="87018" name="F1赛车新闻" categoryid="7707">
+			<tag sourceid="870181" name="体育新闻-F1赛车新闻-标题" descp="" version="" catid="87018"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="7708" categoryid="0" name="科技新闻">
+		<category id="77081" name="科技要闻汇总" categoryid="7708">
+			<tag sourceid="770811" name="科技新闻-科技要闻汇总-标题" descp="" version="" catid="77081"
+				type="3" state="0" />
+		</category>
+		<category id="77082" name="焦点新闻" categoryid="7708">
+			<tag sourceid="770821" name="科技新闻-焦点新闻-标题" descp="" version="" catid="77082"
+				type="3" state="0" />
+		</category>
+		<category id="77083" name="互联网新闻" categoryid="7708">
+			<tag sourceid="770831" name="科技新闻-互联网新闻-标题" descp="" version="" catid="77083"
+				type="3" state="0" />
+		</category>
+		<category id="77084" name="手机资讯" categoryid="7708">
+			<tag sourceid="770841" name="科技新闻-手机资讯-标题" descp="" version="" catid="77084"
+				type="3" state="0" />
+		</category>
+		<category id="77085" name="3G新闻" categoryid="7708">
+			<tag sourceid="770851" name="科技新闻-3G新闻-标题" descp="" version="" catid="77085"
+				type="3" state="0" />
+		</category>
+		<category id="77086" name="笔记本新闻" categoryid="7708">
+			<tag sourceid="770861" name="科技新闻-笔记本新闻-标题" descp="" version="" catid="77086"
+				type="3" state="0" />
+		</category>
+		<category id="77087" name="电信新闻" categoryid="7708">
+			<tag sourceid="770871" name="科技新闻-电信新闻-标题" descp="" version="" catid="77087"
+				type="3" state="0" />
+		</category>
+		<category id="77088" name="业界新闻" categoryid="7708">
+			<tag sourceid="770881" name="科技新闻-业界新闻-标题" descp="" version="" catid="77088"
+				type="3" state="0" />
+		</category>
+		<category id="77089" name="科技下载" categoryid="7708">
+			<tag sourceid="770891" name="科技新闻-科技下载-标题" descp="" version="" catid="77089"
+				type="3" state="0" />
+		</category>
+		<category id="97081" name="科普要闻" categoryid="7708">
+			<tag sourceid="970811" name="科技新闻-科普要闻-标题" descp="" version="" catid="97081"
+				type="3" state="0" />
+		</category>
+		<category id="97082" name="数码资讯" categoryid="7708">
+			<tag sourceid="970821" name="科技新闻-数码资讯-标题" descp="" version="" catid="97082"
+				type="3" state="0" />
+		</category>
+		<category id="97083" name="家电资讯" categoryid="7708">
+			<tag sourceid="970831" name="科技新闻-家电资讯-标题" descp="" version="" catid="97083"
+				type="3" state="0" />
+
+		</category>
+	</category>
+	<category id="3302" categoryid="0" name="汇率信息">
+		<category id="5501" categoryid="3302" name="英镑">
+			<tag sourceid="55011" name="汇率信息-英镑-货币名称" descp="" version="" catid="5501"
+				type="3" state="0" />
+			<tag sourceid="55012" name="汇率信息-英镑-货币符号" descp="" version="" catid="5501"
+				type="3" state="0" />
+			<tag sourceid="55014" name="汇率信息-英镑-现汇买入" descp="" version="" catid="5501"
+				type="3" state="0" />
+			<tag sourceid="55015" name="汇率信息-英镑-现钞买入" descp="" version="" catid="5501"
+				type="3" state="0" />
+			<tag sourceid="55016" name="汇率信息-英镑-现汇卖出" descp="" version="" catid="5501"
+				type="3" state="0" />
+			<tag sourceid="55013" name="汇率信息-英镑-现钞卖出" descp="" version="" catid="5501"
+				type="3" state="0" />
+		</category>
+		<category id="5502" categoryid="3302" name="港币">
+			<tag sourceid="55021" name="汇率信息-港币-货币名称" descp="" version="" catid="5502"
+				type="3" state="0" />
+			<tag sourceid="55022" name="汇率信息-港币-货币符号" descp="" version="" catid="5502"
+				type="3" state="0" />
+			<tag sourceid="55024" name="汇率信息-港币-现汇买入" descp="" version="" catid="5502"
+				type="3" state="0" />
+			<tag sourceid="55025" name="汇率信息-港币-现钞买入" descp="" version="" catid="5502"
+				type="3" state="0" />
+			<tag sourceid="55026" name="汇率信息-港币-现汇卖出" descp="" version="" catid="5502"
+				type="3" state="0" />
+			<tag sourceid="55023" name="汇率信息-港币-现钞卖出" descp="" version="" catid="5502"
+				type="3" state="0" />
+		</category>
+		<category id="5503" categoryid="3302" name="美元">
+			<tag sourceid="55031" name="汇率信息-美元-货币名称" descp="" version="" catid="5503"
+				type="3" state="0" />
+			<tag sourceid="55032" name="汇率信息-美元-货币符号" descp="" version="" catid="5503"
+				type="3" state="0" />
+			<tag sourceid="55034" name="汇率信息-美元-现汇买入" descp="" version="" catid="5503"
+				type="3" state="0" />
+			<tag sourceid="55035" name="汇率信息-美元-现钞买入" descp="" version="" catid="5503"
+				type="3" state="0" />
+			<tag sourceid="55036" name="汇率信息-美元-现汇卖出" descp="" version="" catid="5503"
+				type="3" state="0" />
+			<tag sourceid="55033" name="汇率信息-美元-现钞卖出" descp="" version="" catid="5503"
+				type="3" state="0" />
+		</category>
+		<category id="5504" categoryid="3302" name="瑞士法郎">
+			.
+			<tag sourceid="55041" name="汇率信息-瑞士法郎-货币名称" descp="" version="" catid="5504"
+				type="3" state="0" />
+			<tag sourceid="55042" name="汇率信息-瑞士法郎-货币符号" descp="" version="" catid="5504"
+				type="3" state="0" />
+			<tag sourceid="55044" name="汇率信息-瑞士法郎-现汇买入" descp="" version="" catid="5504"
+				type="3" state="0" />
+			<tag sourceid="55045" name="汇率信息-瑞士法郎-现钞买入" descp="" version="" catid="5504"
+				type="3" state="0" />
+			<tag sourceid="55046" name="汇率信息-瑞士法郎-现汇卖出" descp="" version="" catid="5504"
+				type="3" state="0" />
+			<tag sourceid="55043" name="汇率信息-瑞士法郎-现钞卖出" descp="" version="" catid="5504"
+				type="3" state="0" />
+		</category>
+		<category id="5505" categoryid="3302" name="新加坡元">
+			<tag sourceid="55051" name="汇率信息-新加坡元-货币名称" descp="" version="" catid="5505"
+				type="3" state="0" />
+			<tag sourceid="55052" name="汇率信息-新加坡元-货币符号" descp="" version="" catid="5505"
+				type="3" state="0" />
+			<tag sourceid="55054" name="汇率信息-新加坡元-现汇买入" descp="" version="" catid="5505"
+				type="3" state="0" />
+			<tag sourceid="55055" name="汇率信息-新加坡元-现钞买入" descp="" version="" catid="5505"
+				type="3" state="0" />
+			<tag sourceid="55056" name="汇率信息-新加坡元-现汇卖出" descp="" version="" catid="5505"
+				type="3" state="0" />
+			<tag sourceid="55053" name="汇率信息-新加坡元-现钞卖出" descp="" version="" catid="5505"
+				type="3" state="0" />
+		</category>
+		<category id="5506" categoryid="3302" name="瑞典克朗">
+			<tag sourceid="55061" name="汇率信息-瑞典克朗-货币名称" descp="" version="" catid="5506"
+				type="3" state="0" />
+			<tag sourceid="55062" name="汇率信息-瑞典克朗-货币符号" descp="" version="" catid="5506"
+				type="3" state="0" />
+			<tag sourceid="55064" name="汇率信息-瑞典克朗-现汇买入" descp="" version="" catid="5506"
+				type="3" state="0" />
+			<tag sourceid="55065" name="汇率信息-瑞典克朗-现钞买入" descp="" version="" catid="5506"
+				type="3" state="0" />
+			<tag sourceid="55066" name="汇率信息-瑞典克朗-现汇卖出" descp="" version="" catid="5506"
+				type="3" state="0" />
+			<tag sourceid="55063" name="汇率信息-瑞典克朗-现钞卖出" descp="" version="" catid="5506"
+				type="3" state="0" />
+		</category>
+		<category id="5507" categoryid="3302" name="丹麦克朗">
+			<tag sourceid="55071" name="汇率信息-丹麦克朗-货币名称" descp="" version="" catid="5507"
+				type="3" state="0" />
+			<tag sourceid="55072" name="汇率信息-丹麦克朗-货币符号" descp="" version="" catid="5507"
+				type="3" state="0" />
+			<tag sourceid="55074" name="汇率信息-丹麦克朗-现汇买入" descp="" version="" catid="5507"
+				type="3" state="0" />
+			<tag sourceid="55075" name="汇率信息-丹麦克朗-现钞买入" descp="" version="" catid="5507"
+				type="3" state="0" />
+			<tag sourceid="55076" name="汇率信息-丹麦克朗-现汇卖出" descp="" version="" catid="5507"
+				type="3" state="0" />
+			<tag sourceid="55073" name="汇率信息-丹麦克朗-现钞卖出" descp="" version="" catid="5507"
+				type="3" state="0" />
+		</category>
+		<category id="5508" categoryid="3302" name="挪威克朗">
+			<tag sourceid="55081" name="汇率信息-挪威克朗-货币名称" descp="" version="" catid="5508"
+				type="3" state="0" />
+			<tag sourceid="55082" name="汇率信息-挪威克朗-货币符号" descp="" version="" catid="5508"
+				type="3" state="0" />
+			<tag sourceid="55084" name="汇率信息-挪威克朗-现汇买入" descp="" version="" catid="5508"
+				type="3" state="0" />
+			<tag sourceid="55085" name="汇率信息-挪威克朗-现钞买入" descp="" version="" catid="5508"
+				type="3" state="0" />
+			<tag sourceid="55086" name="汇率信息-挪威克朗-现汇卖出" descp="" version="" catid="5508"
+				type="3" state="0" />
+			<tag sourceid="55083" name="汇率信息-挪威克朗-现钞卖出" descp="" version="" catid="5508"
+				type="3" state="0" />
+		</category>
+		<category id="5509" categoryid="3302" name="日元">
+			<tag sourceid="55091" name="汇率信息-日元-货币名称" descp="" version="" catid="5509"
+				type="3" state="0" />
+			<tag sourceid="55092" name="汇率信息-日元-货币符号" descp="" version="" catid="5509"
+				type="3" state="0" />
+			<tag sourceid="55094" name="汇率信息-日元-现汇买入" descp="" version="" catid="5509"
+				type="3" state="0" />
+			<tag sourceid="55095" name="汇率信息-日元-现钞买入" descp="" version="" catid="5509"
+				type="3" state="0" />
+			<tag sourceid="55096" name="汇率信息-日元-现汇卖出" descp="" version="" catid="5509"
+				type="3" state="0" />
+			<tag sourceid="55093" name="汇率信息-日元-现钞卖出" descp="" version="" catid="5509"
+				type="3" state="0" />
+		</category>
+		<category id="5510" categoryid="3302" name="加拿大元">
+			<tag sourceid="55101" name="汇率信息-加拿大元-货币名称" descp="" version="" catid="5510"
+				type="3" state="0" />
+			<tag sourceid="55102" name="汇率信息-加拿大元-货币符号" descp="" version="" catid="5510"
+				type="3" state="0" />
+			<tag sourceid="55104" name="汇率信息-加拿大元-现汇买入" descp="" version="" catid="5510"
+				type="3" state="0" />
+			<tag sourceid="55105" name="汇率信息-加拿大元-现钞买入" descp="" version="" catid="5510"
+				type="3" state="0" />
+			<tag sourceid="55106" name="汇率信息-加拿大元-现汇卖出" descp="" version="" catid="5510"
+				type="3" state="0" />
+			<tag sourceid="55103" name="汇率信息-加拿大元-现钞卖出" descp="" version="" catid="5510"
+				type="3" state="0" />
+		</category>
+		<category id="5511" categoryid="3302" name="澳大利亚元">
+			<tag sourceid="55111" name="汇率信息-澳大利亚元-货币名称" descp="" version="" catid="5511"
+				type="3" state="0" />
+			<tag sourceid="55112" name="汇率信息-澳大利亚元-货币符号" descp="" version="" catid="5511"
+				type="3" state="0" />
+			<tag sourceid="55114" name="汇率信息-澳大利亚元-现汇买入" descp="" version="" catid="5511"
+				type="3" state="0" />
+			<tag sourceid="55115" name="汇率信息-澳大利亚元-现钞买入" descp="" version="" catid="5511"
+				type="3" state="0" />
+			<tag sourceid="55116" name="汇率信息-澳大利亚元-现汇卖出" descp="" version="" catid="5511"
+				type="3" state="0" />
+			<tag sourceid="55113" name="汇率信息-澳大利亚元-现钞卖出" descp="" version="" catid="5511"
+				type="3" state="0" />
+		</category>
+		<category id="5512" categoryid="3302" name="欧元">
+			<tag sourceid="55121" name="汇率信息-欧元-货币名称" descp="" version="" catid="5512"
+				type="3" state="0" />
+			<tag sourceid="55122" name="汇率信息-欧元-货币符号" descp="" version="" catid="5512"
+				type="3" state="0" />
+			<tag sourceid="55124" name="汇率信息-欧元-现汇买入" descp="" version="" catid="5512"
+				type="3" state="0" />
+			<tag sourceid="55125" name="汇率信息-欧元-现钞买入" descp="" version="" catid="5512"
+				type="3" state="0" />
+			<tag sourceid="55126" name="汇率信息-欧元-现汇卖出" descp="" version="" catid="5512"
+				type="3" state="0" />
+			<tag sourceid="55123" name="汇率信息-欧元-现钞卖出" descp="" version="" catid="5512"
+				type="3" state="0" />
+		</category>
+		<category id="5513" categoryid="3302" name="澳门元">
+			<tag sourceid="55131" name="汇率信息-澳门元-货币名称" descp="" version="" catid="5513"
+				type="3" state="0" />
+			<tag sourceid="55132" name="汇率信息-澳门元-货币符号" descp="" version="" catid="5513"
+				type="3" state="0" />
+			<tag sourceid="55134" name="汇率信息-澳门元-现汇买入" descp="" version="" catid="5513"
+				type="3" state="0" />
+			<tag sourceid="55135" name="汇率信息-澳门元-现钞买入" descp="" version="" catid="5513"
+				type="3" state="0" />
+			<tag sourceid="55136" name="汇率信息-澳门元-现汇卖出" descp="" version="" catid="5513"
+				type="3" state="0" />
+			<tag sourceid="55133" name="汇率信息-澳门元-现钞卖出" descp="" version="" catid="5513"
+				type="3" state="0" />
+		</category>
+		<category id="5514" categoryid="3302" name="菲律宾比索">
+			<tag sourceid="55141" name="汇率信息-菲律宾比索-货币名称" descp="" version="" catid="5514"
+				type="3" state="0" />
+			<tag sourceid="55142" name="汇率信息-菲律宾比索-货币符号" descp="" version="" catid="5514"
+				type="3" state="0" />
+			<tag sourceid="55144" name="汇率信息-菲律宾比索-现汇买入" descp="" version="" catid="5514"
+				type="3" state="0" />
+			<tag sourceid="55145" name="汇率信息-菲律宾比索-现钞买入" descp="" version="" catid="5514"
+				type="3" state="0" />
+			<tag sourceid="55146" name="汇率信息-菲律宾比索-现汇卖出" descp="" version="" catid="5514"
+				type="3" state="0" />
+			<tag sourceid="55143" name="汇率信息-菲律宾比索-现钞卖出" descp="" version="" catid="5514"
+				type="3" state="0" />
+		</category>
+		<category id="5515" categoryid="3302" name="泰国铢">
+			<tag sourceid="55151" name="汇率信息-泰国铢-货币名称" descp="" version="" catid="5515"
+				type="3" state="0" />
+			<tag sourceid="55152" name="汇率信息-泰国铢-货币符号" descp="" version="" catid="5515"
+				type="3" state="0" />
+			<tag sourceid="55154" name="汇率信息-泰国铢-现汇买入" descp="" version="" catid="5515"
+				type="3" state="0" />
+			<tag sourceid="55155" name="汇率信息-泰国铢-现钞买入" descp="" version="" catid="5515"
+				type="3" state="0" />
+			<tag sourceid="55156" name="汇率信息-泰国铢-现汇卖出" descp="" version="" catid="5515"
+				type="3" state="0" />
+			<tag sourceid="55153" name="汇率信息-泰国铢-现钞卖出" descp="" version="" catid="5515"
+				type="3" state="0" />
+		</category>
+		<category id="5516" categoryid="3302" name="新西兰元">
+			<tag sourceid="55161" name="汇率信息-新西兰元-货币名称" descp="" version="" catid="5516"
+				type="3" state="0" />
+			<tag sourceid="55162" name="汇率信息-新西兰元-货币符号" descp="" version="" catid="5516"
+				type="3" state="0" />
+			<tag sourceid="55164" name="汇率信息-新西兰元-现汇买入" descp="" version="" catid="5516"
+				type="3" state="0" />
+			<tag sourceid="55165" name="汇率信息-新西兰元-现钞买入" descp="" version="" catid="5516"
+				type="3" state="0" />
+			<tag sourceid="55166" name="汇率信息-新西兰元-现汇卖出" descp="" version="" catid="5516"
+				type="3" state="0" />
+			<tag sourceid="55163" name="汇率信息-新西兰元-现钞卖出" descp="" version="" catid="5516"
+				type="3" state="0" />
+		</category>
+		<category id="5517" categoryid="3302" name="韩国元">
+			<tag sourceid="55171" name="汇率信息-韩国元-货币名称" descp="" version="" catid="5517"
+				type="3" state="0" />
+			<tag sourceid="55172" name="汇率信息-韩国元-货币符号" descp="" version="" catid="5517"
+				type="3" state="0" />
+			<tag sourceid="55174" name="汇率信息-韩国元-现汇买入" descp="" version="" catid="5517"
+				type="3" state="0" />
+			<tag sourceid="55175" name="汇率信息-韩国元-现钞买入" descp="" version="" catid="5517"
+				type="3" state="0" />
+			<tag sourceid="55176" name="汇率信息-韩国元-现汇卖出" descp="" version="" catid="5517"
+				type="3" state="0" />
+			<tag sourceid="55173" name="汇率信息-韩国元-现钞卖出" descp="" version="" catid="5517"
+				type="3" state="0" />
+		</category>
+		<category id="5519" categoryid="3302" name="全部汇率">
+			<tag sourceid="55192" name="汇率信息-全部汇率-现汇买入" descp="" version="" catid="5519"
+				type="3" state="0" />
+			<tag sourceid="55193" name="汇率信息-全部汇率-现钞买入" descp="" version="" catid="5519"
+				type="3" state="0" />
+			<tag sourceid="55194" name="汇率信息-全部汇率-现汇卖出" descp="" version="" catid="5519"
+				type="3" state="0" />
+			<tag sourceid="55191" name="汇率信息-全部汇率-现钞卖出" descp="" version="" catid="5519"
+				type="3" state="0" />
+			<tag sourceid="55195" name="汇率信息-全部汇率-全部汇率" descp="" version="" catid="5519"
+				type="3" state="0" />
+		</category>
+	</category>
+	<category id="3305" categoryid="0" name="股票信息">
+		<category id="6601" categoryid="3305" name="上证综指">
+			<tag sourceid="66011" name="股票信息-上证综指-指数名称" descp="" version="" catid="6601"
+				type="3" state="0" />
+			<tag sourceid="66012" name="股票信息-上证综指-当前点数" descp="" version="" catid="6601"
+				type="3" state="0" />
+			<tag sourceid="66013" name="股票信息-上证综指-涨跌数" descp="" version="" catid="6601"
+				type="3" state="0" />
+			<tag sourceid="66014" name="股票信息-上证综指-涨跌率" descp="" version="" catid="6601"
+				type="3" state="0" />
+		</category>
+		<category id="6602" categoryid="3305" name="深证成指">
+			<tag sourceid="66021" name="股票信息-深证成指-指数名称" descp="" version="" catid="6602"
+				type="3" state="0" />
+			<tag sourceid="66022" name="股票信息-深证成指-当前点数" descp="" version="" catid="6602"
+				type="3" state="0" />
+			<tag sourceid="66023" name="股票信息-深证成指-涨跌数" descp="" version="" catid="6602"
+				type="3" state="0" />
+			<tag sourceid="66024" name="股票信息-深证成指-涨跌率" descp="" version="" catid="6602"
+				type="3" state="0" />
+		</category>
+		<category id="6603" categoryid="3305" name="道琼斯">
+			<tag sourceid="66031" name="股票信息-道琼斯-指数名称" descp="" version="" catid="6603"
+				type="3" state="0" />
+			<tag sourceid="66032" name="股票信息-道琼斯-当前点数" descp="" version="" catid="6603"
+				type="3" state="0" />
+			<tag sourceid="66033" name="股票信息-道琼斯-涨跌数" descp="" version="" catid="6603"
+				type="3" state="0" />
+			<tag sourceid="66034" name="股票信息-道琼斯-涨跌率" descp="" version="" catid="6603"
+				type="3" state="0" />
+		</category>
+		<category id="6604" categoryid="3305" name="纳斯达克">
+			<tag sourceid="66041" name="股票信息-纳斯达克-指数名称" descp="" version="" catid="6604"
+				type="3" state="0" />
+			<tag sourceid="66042" name="股票信息-纳斯达克-当前点数" descp="" version="" catid="6604"
+				type="3" state="0" />
+			<tag sourceid="66043" name="股票信息-纳斯达克-涨跌数" descp="" version="" catid="6604"
+				type="3" state="0" />
+			<tag sourceid="66044" name="股票信息-纳斯达克-涨跌率" descp="" version="" catid="6604"
+				type="3" state="0" />
+		</category>
+		<category id="6605" categoryid="3305" name="恒生指数">
+			<tag sourceid="66051" name="股票信息-恒生指数-指数名称" descp="" version="" catid="6605"
+				type="3" state="0" />
+			<tag sourceid="66052" name="股票信息-恒生指数-当前点数" descp="" version="" catid="6605"
+				type="3" state="0" />
+			<tag sourceid="66053" name="股票信息-恒生指数-涨跌数" descp="" version="" catid="6605"
+				type="3" state="0" />
+			<tag sourceid="66054" name="股票信息-恒生指数-涨跌率" descp="" version="" catid="6605"
+				type="3" state="0" />
+		</category>
+		<category id="6606" categoryid="3305" name="日经指数">
+			<tag sourceid="66061" name="股票信息-日经指数-指数名称" descp="" version="" catid="6606"
+				type="3" state="0" />
+			<tag sourceid="66062" name="股票信息-日经指数-当前点数" descp="" version="" catid="6606"
+				type="3" state="0" />
+			<tag sourceid="66063" name="股票信息-日经指数-涨跌数" descp="" version="" catid="6606"
+				type="3" state="0" />
+			<tag sourceid="66064" name="股票信息-日经指数-涨跌率" descp="" version="" catid="6606"
+				type="3" state="0" />
+		</category>
+		<category id="6607" categoryid="3305" name="台湾加权">
+			<tag sourceid="66071" name="股票信息-台湾加权-指数名称" descp="" version="" catid="6607"
+				type="3" state="0" />
+			<tag sourceid="66072" name="股票信息-台湾加权-当前点数" descp="" version="" catid="6607"
+				type="3" state="0" />
+			<tag sourceid="66073" name="股票信息-台湾加权-涨跌数" descp="" version="" catid="6607"
+				type="3" state="0" />
+			<tag sourceid="66074" name="股票信息-台湾加权-涨跌率" descp="" version="" catid="6607"
+				type="3" state="0" />
+		</category>
+		<category id="6608" categoryid="3305" name="新加坡">
+			<tag sourceid="66081" name="股票信息-新加坡-指数名称" descp="" version="" catid="6608"
+				type="3" state="0" />
+			<tag sourceid="66082" name="股票信息-新加坡-当前点数" descp="" version="" catid="6608"
+				type="3" state="0" />
+			<tag sourceid="66083" name="股票信息-新加坡-涨跌数" descp="" version="" catid="6608"
+				type="3" state="0" />
+			<tag sourceid="66084" name="股票信息-新加坡-涨跌率" descp="" version="" catid="6608"
+				type="3" state="0" />
+		</category>
+		<category id="6609" categoryid="3305" name="全部股票">
+			<tag sourceid="66091" name="股票信息-全部股票-当前点数" descp="" version="" catid="6609"
+				type="3" state="0" />
+			<tag sourceid="66092" name="股票信息-全部股票-涨跌数" descp="" version="" catid="6609"
+				type="3" state="0" />
+			<tag sourceid="66093" name="股票信息-全部股票-涨跌率" descp="" version="" catid="6609"
+				type="3" state="0" />
+			<tag sourceid="66094" name="股票信息-全部股票-全部股票" descp="" version="" catid="6609"
+				type="3" state="0" />
+		</category>
+	</category>
+
+</internal>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="admin-customer" namespace="/admin" extends="admin-default">
+		<action name="customer" class="com.gnamp.struts.admin.action.CustomerAction">
+			<result name="validate">index</result>
+			<result name="preadd">/admin/cstm/cstmadd.jsp</result>
+			<result name="preedit">/admin/cstm/edit.jsp</result>
+			<result name="success">/admin/cstm/customer.jsp</result>
+		</action>
+	</package>
+</struts>

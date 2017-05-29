@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="1" category="企业通用" name="企业通用01" desc="横:视频+绿色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353469262" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="1" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<imagerect layer="2" nH="70" nW="200" nX="860" nY="78"
+		rectid="1353739141" rectname="图片区域(1)" />
+	<videorect layer="3" nH="751" nW="1335" nX="296" nY="195"
+		rectid="1353739142" rectname="视频区域" />
+</template>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="11" category="企业通用" name="企业通用11" desc="横:视频+图片+天气+灰色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353410384" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="11" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<videorect layer="2" nH="603" nW="905" nX="162" nY="156"
+		rectid="1353410733" rectname="视频区域" />
+	<imagerect layer="3" nH="333" nW="572" nX="1264" nY="106"
+		rectid="1353410734" rectname="图片区域(1)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#B2B2B2"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="4" marqueetype="5"
+		nH="315" nW="552" nX="1274" nY="480" rectid="1353410735" rectname="文字区域"
+		speed="2" transparent="false" />
+	<weatherlogorect layer="5" nH="99" nW="99" nX="89" nY="957"
+		rectid="1353410736" rectname="天气图标区域" style="today" />
+	<weathertemprect align_h="right" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="6" nH="52" nW="200" nX="192" nY="984" rectid="1353410737"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<weathertextrect align_h="left" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="7" nH="28" nW="110" nX="406" nY="997" rectid="1353410738"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<daterect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="8" nH="40" nW="270"
+		nX="550" nY="990" rectid="1353410739" rectname="日期区域" style="1"
+		transparent="true" />
+	<weekrect align_h="left" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="9" nH="29" nW="89"
+		nX="838" nY="997" rectid="1353410740" rectname="星期区域" style="0"
+		transparent="true" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#6B6B6B" fontname="" fontsize="20" layer="10" nH="71" nW="259"
+		nX="1071" nY="969" rectid="1353410741" rectname="时间区域" style="0"
+		transparent="true" />
+	<imagerect layer="11" nH="94" nW="295" nX="1558" nY="958"
+		rectid="1353410742" rectname="图片区域(2)" />
+</template>

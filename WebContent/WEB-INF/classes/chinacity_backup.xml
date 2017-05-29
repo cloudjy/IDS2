@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities version="2011-05-08 17:00:00">
+  <state name="北京">
+    <date name="北京" mapKey="CHXX0008"/>
+  </state>
+  <state name="上海">
+    <date name="上海" mapKey="CHXX0116"/>
+  </state>
+  <state name="天津">
+    <date name="天津" mapKey="CHXX0133"/>
+  </state>
+  <state name="重庆">
+    <date name="重庆" mapKey="CHXX0017"/>
+  </state>
+  <state name="黑龙江">
+    <date name="伊春" mapKey="CHXX0153"/>
+    <date name="哈尔滨" mapKey="CHXX0046"/>
+    <date name="牡丹江" mapKey="CHXX0278"/>
+    <date name="鸡西" mapKey="CHXX0193"/>
+    <date name="黑河" mapKey="CHXX0174"/>
+    <date name="齐齐哈尔" mapKey="CHXX0112"/>
+  </state>
+  <state name="吉林">
+    <date name="吉林" mapKey="CHXX0063"/>
+    <date name="四平" mapKey="CHXX0283"/>
+    <date name="长春" mapKey="CHXX0010"/>
+  </state>
+  <state name="辽宁">
+    <date name="丹东市" mapKey="CHXX0306"/>
+    <date name="大连市" mapKey="CHXX0019"/>
+    <date name="抚顺" mapKey="CHXX0029"/>
+    <date name="朝阳市" mapKey="CHXX0294"/>
+    <date name="本溪" mapKey="CHXX0296"/>
+    <date name="沈阳" mapKey="CHXX0119"/>
+    <date name="营口" mapKey="CHXX0304"/>
+    <date name="辽阳" mapKey="CHXX0081"/>
+    <date name="铁岭" mapKey="CHXX0134"/>
+    <date name="鞍山市" mapKey="CHXX0004"/>
+  </state>
+  <state name="内蒙古">
+   <date name="呼和浩特" mapKey="CHXX0249"/>
+   <date name="赤峰" mapKey="CHXX0286"/>
+   <date name="通辽" mapKey="CHXX0282"/>
+  </state>
+  <state name="山西">
+    <date name="太原" mapKey="CHXX0129"/>
+    <date name="阳泉" mapKey="CHXX0152"/>
+  </state>
+  <state name="陕西">
+    <date name="咸阳" mapKey="CHXX0143"/>
+    <date name="安康" mapKey="CHXX0394"/>
+    <date name="宝鸡" mapKey="CHXX0387"/>
+    <date name="延安" mapKey="CHXX0267"/>
+    <date name="榆林" mapKey="CHXX0260"/>
+    <date name="汉中" mapKey="CHXX0390"/>
+    <date name="渭南" mapKey="CHXX0137"/>
+    <date name="西安" mapKey="CHXX0141"/>
+  </state>
+  <state name="山东">
+    <date name="日照" mapKey="CHXX0322"/>
+    <date name="济南" mapKey="CHXX0064"/>
+    <date name="潍坊" mapKey="CHXX0318"/>
+    <date name="青岛" mapKey="CHXX0110"/>
+  </state>
+  <state name="新疆">
+    <date name="乌鲁木齐市" mapKey="CHXX0135"/>
+    <date name="克拉玛依市" mapKey="CHXX0200"/>
+  </state>
+  <state name="西藏">
+    <date name="拉萨" mapKey="CHXX0080"/>
+  </state>
+  
+  <state name="青海">
+    <date name="西宁" mapKey="CHXX0236"/>
+  </state>
+  <state name="甘肃">
+    <date name="兰州市" mapKey="CHXX0079"/>
+    <date name="天水" mapKey="CHXX0386"/>
+    <date name="定西" mapKey="CHXX0024"/>
+    <date name="平凉市" mapKey="CHXX0270"/>
+    <date name="张掖" mapKey="CHXX0228"/>
+    <date name="白银市" mapKey="CHXX0006"/>
+    <date name="酒泉市" mapKey="CHXX0226"/>
+  </state>
+  <state name="宁夏">
+    <date name="银川" mapKey="CHXX0259"/>
+  </state>
+  <state name="河南">
+    <date name="郑州" mapKey="CHXX0165"/>
+    <date name="安阳" mapKey="CHXX0269"/>
+    <date name="新乡" mapKey="CHXX0148"/>
+    <date name="信阳" mapKey="CHXX0149"/>
+    <date name="南阳" mapKey="CHXX0391"/>
+    <date name="开封" mapKey="CHXX0072"/>
+    <date name="洛阳" mapKey="CHXX0086"/>
+    <date name="漯河" mapKey="CHXX0085"/>
+    <date name="驻马店" mapKey="CHXX0398"/>
+  </state>
+  <state name="江苏">
+    <date name="南京" mapKey="CHXX0099"/>
+    <date name="镇江" mapKey="CHXX0166"/>
+    <date name="苏州" mapKey="CHXX052037"/>
+    <date name="南通" mapKey="CHXX0101"/>
+    <date name="盐城" mapKey="CHXX0273"/>
+    <date name="徐州" mapKey="CHXX0437"/>
+    <date name="常州" mapKey="CHXX0015"/>
+    
+  </state>
+  <state name="湖北">
+    <date name="孝感" mapKey="CHXX0144"/>
+    <date name="宜昌市" mapKey="CHXX0407"/>
+    <date name="武汉市" mapKey="CHXX0138"/>
+    <date name="黄石市" mapKey="CHXX0051"/>
+  </state>
+  <state name="浙江">
+     <date name="丽水市" mapKey="CHXX0461"/>
+     <date name="嘉兴市" mapKey="CHXX0062"/>
+     <date name="宁波市" mapKey="CHXX0522"/>
+     <date name="杭州" mapKey="CHXX0044"/>
+     <date name="温州" mapKey="CHXX0462"/>
+     <date name="湖州市" mapKey="CHXX0056"/>
+     <date name="绍兴市" mapKey="CHXX0117"/>
+     <date name="衢州市" mapKey="CHXX0460"/>
+  </state>
+  <state name="安徽">
+    <date name="亳州" mapKey="CHXX0439"/>
+    <date name="合肥" mapKey="CHXX0448"/>
+    <date name="安庆" mapKey="CHXX0452"/>
+    <date name="芜湖" mapKey="CHXX0449"/>
+    <date name="蚌埠" mapKey="CHXX0444"/>
+    <date name="阜阳" mapKey="CHXX0442"/>
+    <date name="黄山" mapKey="CHXX0453"/>
+  </state>
+  <state name="福建">
+    <date name="南平市" mapKey="CHXX0471"/>
+    <date name="厦门市" mapKey="CHXX0140"/>
+    <date name="泉州市" mapKey="CHXX0114"/>
+    <date name="漳州市" mapKey="CHXX0162"/>
+    <date name="福州市" mapKey="CHXX0031"/>
+  </state>
+  <state name="江西">
+    <date name="九江市" mapKey="CHXX0068"/>
+    <date name="南昌" mapKey="CHXX0097"/>
+    <date name="吉安" mapKey="CHXX0425"/>
+    <date name="宜春市" mapKey="CHXX0518"/>
+    <date name="景德镇市" mapKey="CHXX0457"/>
+    <date name="赣州市" mapKey="CHXX0436"/>
+  </state>
+  <state name="湖南">
+    <date name="岳阳" mapKey="CHXX0411"/>
+    <date name="常德市" mapKey="CHXX0416"/>
+    <date name="永州市" mapKey="CHXX0429"/>
+    <date name="湘潭" mapKey="CHXX0142"/>
+    <date name="郴州" mapKey="CHXX0435"/>
+    <date name="长沙" mapKey="CHXX0013"/>
+  </state>
+  <state name="贵州">
+    <date name="贵阳" mapKey="CHXX0039"/>
+    <date name="遵义" mapKey="CHXX0419"/>
+    <date name="安顺" mapKey="CHXX0005"/>
+    <date name="毕节" mapKey="CHXX0418"/>
+  </state>
+  <state name="四川">
+    <date name="内江市" mapKey="CHXX0103"/>
+    <date name="南充" mapKey="CHXX0098"/>
+    <date name="宜宾" mapKey="CHXX0362"/>
+    <date name="广安" mapKey="CHXX0036"/>
+    <date name="成都" mapKey="CHXX0016"/>
+    <date name="泸州市" mapKey="CHXX0088"/>
+    <date name="眉山" mapKey="CHXX0091"/>
+    <date name="绵阳市" mapKey="CHXX0351"/>
+    <date name="遂宁" mapKey="CHXX0127"/>
+    <date name="雅安市" mapKey="CHXX0354"/>
+  </state>
+  <state name="广东">
+    <date name="佛山市" mapKey="CHXX0028"/>
+    <date name="广州市" mapKey="CHXX0037"/>
+    <date name="惠州" mapKey="CHXX0053"/>
+    <date name="梅州" mapKey="CHXX0486"/>
+    <date name="汕头" mapKey="CHXX0493"/>
+    <date name="汕尾市" mapKey="CHXX0496"/>
+    <date name="江门市" mapKey="CHXX0058"/>
+    <date name="河源" mapKey="CHXX0492"/>
+    <date name="深圳市" mapKey="CHXX0120"/>
+    <date name="湛江市" mapKey="CHXX0163"/>
+    <date name="茂名市" mapKey="CHXX0090"/>
+    <date name="阳江市" mapKey="CHXX0500"/>
+    <date name="韶关市" mapKey="CHXX0482"/>
+  </state>
+  <state name="云南">
+    <date name="临沧" mapKey="CHXX0378"/>
+    <date name="保山" mapKey="CHXX0370"/>
+    <date name="大理" mapKey="CHXX0371"/>
+    <date name="安宁" mapKey="CHXX0003"/>
+    <date name="昆明" mapKey="CHXX0076"/>
+    <date name="昭通" mapKey="CHXX0364"/>
+    <date name="景洪市" mapKey="CHXX0380"/>
+    <date name="楚雄" mapKey="CHXX0373"/>
+    <date name="瑞丽" mapKey="CHXX0375"/>
+  </state>
+  <state name="广西">
+    <date name="北海" mapKey="CHXX0499"/>
+    <date name="南宁" mapKey="CHXX0100"/>
+    <date name="柳州市" mapKey="CHXX0479"/>
+    <date name="桂林" mapKey="CHXX0434"/>
+    <date name="梧州" mapKey="CHXX0490"/>
+    <date name="河池" mapKey="CHXX0478"/>
+    <date name="钦州" mapKey="CHXX0498"/>
+  </state>
+  <state name="海南">
+    <date name="琼海" mapKey="CHXX0506"/>
+    <date name="海口" mapKey="CHXX0502"/>
+  </state>
+  <state name="香港">
+    <date name="香港" mapKey="CHXX0049"/>
+  </state>
+  <state name="澳门">
+    <date name="澳门" mapKey="CHXX0512"/>
+  </state>
+  <state name="台湾">
+    <date name="台北" mapKey="TWXX0021"/>
+    <date name="高雄" mapKey="TWXX0013"/>
+  </state>
+  <state name="河北">
+    <date name="保定" mapKey="CHXX0308"/>
+    <date name="唐山" mapKey="CHXX0131"/>
+    <date name="张家口" mapKey="CHXX0300"/>
+    <date name="承德" mapKey="CHXX0302"/>
+    <date name="石家庄" mapKey="CHXX0122"/>
+    <date name="秦皇岛" mapKey="CHXX0521"/>
+    <date name="青龙" mapKey="CHXX0303"/>
+  </state>
+</cities>

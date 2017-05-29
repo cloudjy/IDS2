@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnamp>
+	<context-path>gnamp_work</context-path>
+	<config-template-en>configtemplate-en_US.xml</config-template-en>
+	<config-template-zh>configtemplate-zh_CN.xml</config-template-zh>
+	<config-template-zh_CN>configtemplate-zh_CN.xml</config-template-zh_CN>
+	<config-template-zh_TW>configtemplate-zh_TW.xml</config-template-zh_TW>
+	<config-template-vo>configtemplate-default.xml</config-template-vo>
+</gnamp>

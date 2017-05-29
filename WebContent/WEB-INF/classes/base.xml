@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	
+	<package name="default" namespace="/Pages" extends="struts-default">
+	
+	 	<interceptors>
+            <!-- 自定义拦截器 -->
+            <interceptor name="permission" class="com.gnamp.struts.filter.PermissionIntercept" />
+            <!-- 配制默许的拦截器到拦截器栈 -->
+            <interceptor-stack name="permissionStack">
+
+                <!-- 此处先后顺序有影响-->
+                <interceptor-ref name="permission" />
+                
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        <!-- 页面权限拦截器 -->
+        <default-interceptor-ref name="permissionStack" />
+        <!-- 全局变量 --> 
+		<default-action-ref name="index" />
+		
+		<global-results>
+            <result name="login" type="redirectAction">login</result>
+            <result name="input">/jsonerrors.jsp</result>
+        </global-results>
+        
+        <global-exception-mappings>
+        	<exception-mapping result="login" exception="java.lang.Exception"></exception-mapping>
+        </global-exception-mappings>
+		<action name="index" class="com.gnamp.struts.action.IndexAction">
+			<result>/Pages/index.jsp</result>
+		</action>
+		<action name="help" class="com.gnamp.struts.action.HelpAction">
+			<result>/Pages/help/help.jsp</result>
+			<result name="help">/Pages/help/help.jsp</result>
+			<result name="version">/Pages/help/version.jsp</result>
+		</action>
+		<action name="changepassword" class="com.gnamp.struts.action.ChangePasswordAction" >
+			<result>/Pages/changepassword.jsp</result>
+		</action>
+		<action name="font" class="com.gnamp.struts.action.FontAction" method="getFonts">
+		</action>
+	</package>
+	
+	<package name="all" namespace="/" extends="struts-default">
+		<global-results>
+            <result name="login" type="redirectAction">Pages/login</result>
+        </global-results>
+	 	<global-exception-mappings>
+        	<exception-mapping result="login" exception="java.lang.Exception"></exception-mapping>
+        </global-exception-mappings>
+	</package>
+</struts>

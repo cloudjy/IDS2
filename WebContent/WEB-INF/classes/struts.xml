@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.custom.i18n.resources" value="message"></constant>
+	<constant name="struts.multipart.maxSize" value="-1"/>
+	
+	<include file="base.xml"/>
+	<include file="login.xml"/>
+	<include file="logout.xml"/>
+	<include file="file.xml"/>
+	<include file="tag.xml"/>
+	<include file="terminal.xml"></include>
+	<include file="user.xml"/>
+	<include file="task.xml"></include>
+	<include file="config.xml"></include>
+	<include file="admin-base.xml"/>
+	<include file="admin-login.xml"/>
+	<include file="admin-logout.xml"/>
+	<include file="admin-customer.xml"/>
+	<include file="admin-dust.xml"/>
+	<include file="admin-app.xml"/>
+	<include file="admin-kernel.xml"/>
+	<include file="admin-template.xml"/>
+	<include file="admin-userlog.xml"/>
+	<include file="admin-weather.xml"/>
+</struts>
+

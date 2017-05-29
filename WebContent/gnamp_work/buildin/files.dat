@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filelist>
+	<file id="1" name="企业通用001.jpg" desc="横:视频+绿色背景" cat_id="0" type="0" size="119080"
+		sum="-84756538" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="2" name="企业通用002.jpg" desc="横:视频+2个文字+蓝色背景" cat_id="0" type="0" size="102171"
+		sum="167933194" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="3" name="企业通用003.jpg" desc="横:视频+图片+天气+绿色背景" cat_id="0" type="0" size="64876"
+		sum="-1407334282" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="4" name="企业通用004.jpg" desc="横:视频+天气+紫色背景" cat_id="0" type="0" size="184129"
+		sum="111802408" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="5" name="企业通用005.jpg" desc="横:图片+文字+绿色背景" cat_id="0" type="0" size="109960"
+		sum="-1150523551" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="6" name="企业通用006.jpg" desc="横:视频+文字+灰色背景" cat_id="0" type="0" size="128091"
+		sum="-1092064489" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="7" name="企业通用007.jpg" desc="横:视频+图片+天气+紫色背景" cat_id="0" type="0" size="130106"
+		sum="2013769824" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="8" name="企业通用008.jpg" desc="横:视频+图片+天气+紫色背景" cat_id="0" type="0" size="156086"
+		sum="-198451713" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="9" name="企业通用009.jpg" desc="横:视频+图片+天气+灰色背景" cat_id="0" type="0" size="206892"
+		sum="-1134213656" upload_time="2012-10-13 11:40:40" upload_user=""
+		check_time="2012-10-13 11:40:45" check_user="" vender="" use_count="1"
+		check_state="0" />
+	<file id="10" name="企业通用010.jpg" desc="横:4个图片+天气" cat_id="0" type="0"
+		size="160415" sum="-480799807" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="11" name="企业通用011.jpg" desc="横:视频+图片+天气+灰色背景" cat_id="0" type="0"
+		size="98494" sum="-2031368854" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="12" name="企业通用012.jpg" desc="横:视频+4个图片+紫色背景" cat_id="0" type="0"
+		size="104493" sum="1437557048" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="13" name="企业通用013.jpg" desc="横:视频+图片+天气+灰色背景" cat_id="0" type="0"
+		size="76065" sum="585934809" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="14" name="企业通用014.jpg" desc="横:视频+图片+文字+绿色背景" cat_id="0" type="0"
+		size="92181" sum="-1165964680" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="15" name="企业通用015.jpg" desc="竖:视频+图片+天气+紫色背景" cat_id="0" type="0"
+		size="138319" sum="160289160" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="16" name="企业通用016.jpg" desc="竖:视频+图片+天气+红色背景" cat_id="0" type="0"
+		size="148550" sum="-214857922" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="17" name="企业通用017.jpg" desc="竖:视频+紫色背景" cat_id="0" type="0"
+		size="155422" sum="635925549" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="18" name="企业通用018.jpg" desc="竖:长图片+红色背景" cat_id="0" type="0"
+		size="86497" sum="-838490117" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="19" name="企业通用019.jpg" desc="竖:长图片+灰色背景" cat_id="0" type="0"
+		size="61301" sum="1683935442" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+	<file id="20" name="企业通用020.jpg" desc="竖:视频+2个图片+灰色背景" cat_id="0" type="0"
+		size="70324" sum="1603123108" upload_time="2012-10-13 11:40:40"
+		upload_user="" check_time="2012-10-13 11:40:45" check_user="" vender=""
+		use_count="1" check_state="0" />
+</filelist>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://action.struts.gnamp.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://action.struts.gnamp.com" xmlns:intf="http://action.struts.gnamp.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://action.struts.gnamp.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="addTextOfTag">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="id" type="xsd:int"/>
+      <element maxOccurs="unbounded" name="text" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addTextOfTagResponse">
+    <complexType>
+     <sequence>
+      <element name="addTextOfTagReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addFileOfTag">
+    <complexType>
+     <sequence>
+      <element name="szDomain" type="xsd:string"/>
+      <element name="szUid" type="xsd:string"/>
+      <element name="szPwd" type="xsd:string"/>
+      <element name="id" type="xsd:int"/>
+      <element maxOccurs="unbounded" name="file" type="impl:UploadFile"/>
+     </sequence>
+    </complexType>
+   </element>
+   <complexType name="UploadFile">
+    <sequence>
+     <element name="content" nillable="true" type="xsd:base64Binary"/>
+     <element name="fileName" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <element name="addFileOfTagResponse">
+    <complexType>
+     <sequence>
+      <element name="addFileOfTagReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="addFileOfTagResponse">
+
+      <wsdl:part element="impl:addFileOfTagResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addFileOfTagRequest">
+
+      <wsdl:part element="impl:addFileOfTag" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTextOfTagRequest">
+
+      <wsdl:part element="impl:addTextOfTag" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTextOfTagResponse">
+
+      <wsdl:part element="impl:addTextOfTagResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="TagWebServices">
+
+      <wsdl:operation name="addTextOfTag">
+
+         <wsdl:input message="impl:addTextOfTagRequest" name="addTextOfTagRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addTextOfTagResponse" name="addTextOfTagResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addFileOfTag">
+
+         <wsdl:input message="impl:addFileOfTagRequest" name="addFileOfTagRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addFileOfTagResponse" name="addFileOfTagResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="TagWebServicesSoapBinding" type="impl:TagWebServices">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="addTextOfTag">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addTextOfTagRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addTextOfTagResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addFileOfTag">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addFileOfTagRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addFileOfTagResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="TagWebServicesService">
+
+      <wsdl:port binding="impl:TagWebServicesSoapBinding" name="TagWebServices">
+
+         <wsdlsoap:address location="http://localhost:8080/gnamp_web/services/TagWebServices"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

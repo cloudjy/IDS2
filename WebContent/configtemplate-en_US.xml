@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<items>
+	<group name="Server Settings">
+		<item name="domain" desc="Server Address" defaultvalue="192.168.1.2" checkexpression="IP or URL" samplevalue="" />
+		<item name="control" desc="Control Port" defaultvalue="9090" checkexpression="80, 9090, ..." samplevalue="" />
+		<item name="port" desc="Download Port" defaultvalue="80" checkexpression="80, 8080, ..." samplevalue="" />
+		<item name="activedir" desc="Active Directory" defaultvalue="" checkexpression="" samplevalue="" />
+	</group>
+	<group name="Network Settings ">
+		<item name="gprs" desc="GPRS Network" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+		</item>
+		<item name="evdo" desc="EVDO Network" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+			<item name="account" desc="EVDO Account" defaultvalue="" checkexpression="ctnet@mycdma.cn" samplevalue="" />
+			<item name="password" desc="EVDO Password" defaultvalue="" checkexpression="vnet.mobi" samplevalue="" />
+		</item>
+		<item name="wcdma" desc="WCDMA Network" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+			<item name="apn" desc="WCDMA APN" defaultvalue="" checkexpression="3GNET or others" samplevalue="" />
+			<item name="number" desc="WCDMA Phone" defaultvalue="" checkexpression="*99# or others" samplevalue="" />
+		</item>
+		<item name="tdcdma" desc="TDCDMA Network" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+		</item>
+		<item name="wifi" desc="WiFi Network" defaultvalue="" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+			<item name="ssid" desc="WiFi AP SSID" defaultvalue="" checkexpression="SSID Name" samplevalue="" />
+			<item name="auth" desc="WiFi Authentication" defaultvalue="" checkexpression="open, shared, wpapsk..." samplevalue="" />
+			<item name="encrypt" desc="WiFi Encryption" defaultvalue="" checkexpression="none, tkip, aes, wep..." samplevalue="" />
+			<item name="key" desc="WiFi Encryption Key" defaultvalue="" checkexpression="user specified" samplevalue="" />
+		</item>
+		<item name="ethernet" desc="Ethernet LAN" defaultvalue="enable" checkexpression="disable or enable" samplevalue="" >
+			<select value="enable">
+				<option value="enable">enable</option>
+				<option value="disable">disable</option>
+			</select>
+			<item name="mode" desc="LAN IP Mode" defaultvalue="dhcp" checkexpression="dhcp or static" samplevalue="" >
+				<select value="enable">
+					<option value="dhcp">dhcp</option>
+					<option value="static">static</option>
+				</select>
+			</item>
+			<item name="ip" desc="LAN IP Address" defaultvalue="" checkexpression="192.168.1.100" samplevalue="" />
+			<item name="mask" desc="LAN Subnet Mask" defaultvalue="" checkexpression="255.255.255.0" samplevalue="" />
+			<item name="gate" desc="LAN Gateway" defaultvalue="" checkexpression="192.168.1.1" samplevalue="" />
+			<item name="dns" desc="LAN Domain Name Server" defaultvalue="" checkexpression="192.168.1.1" samplevalue="" />
+		</item>
+	</group>
+	<group name="Player Settings">
+		<item name="pontime" desc="Daily Power On Time" defaultvalue="00:00" checkexpression="00:00~23:59" samplevalue="" />
+		<item name="pofftime" desc="Daily Power Off Time" defaultvalue="00:00" checkexpression="00:00~23:59" samplevalue="" />
+		<item name="power" desc="Weekly Power On/Off" defaultvalue="" checkexpression="[0~6,hh:mm,hh:mm]" samplevalue="" />
+		<item name="heartbeat" desc="Heartbeat Interval (s)" defaultvalue="60" checkexpression="60~3600" samplevalue="" />
+		<item name="weather_interval" desc="Weather Interval (s)" defaultvalue="5" checkexpression="3~10" samplevalue="" />
+		<item name="rotation" desc="Rotate Clockwise" defaultvalue="0" checkexpression="0, 90, 180, 270" samplevalue="" />
+		<item name="time_zone" desc="Time Zone" defaultvalue="8" checkexpression="-12~12" samplevalue="" />
+		<item name="play_log" desc="Play Log (in days)" defaultvalue="60" checkexpression="off，15，30，60，forever" samplevalue="" />
+		<item name="net_dog" desc="Net Monitor (in counts)" defaultvalue="off" checkexpression="off, 5, 10, 15, 20" samplevalue="" />
+		<item name="play_point" desc="Play Point Remember" defaultvalue="off" checkexpression="on，off" samplevalue="" />
+		<item name="play_sync" desc="Multi-Player Sync" defaultvalue="off" checkexpression="on，off" samplevalue="" />
+		<item name="volume" desc="Volume" defaultvalue="" checkexpression="[00:00,10:00,8] [15:00,23:59,10]" samplevalue="" />
+		<item name="bright" desc="Brightness" defaultvalue="" checkexpression="[00:00,10:00,8] [10:00,23:59,10]" samplevalue="" />
+		<item name="download" desc="Download Interval" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+		<item name="demand" desc="Demand Interval" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+		<item name="standby" desc="Standby Interval" defaultvalue="" checkexpression="[08:00,12:00] [15:00,23:59]" samplevalue="" />
+	</group>
+</items>

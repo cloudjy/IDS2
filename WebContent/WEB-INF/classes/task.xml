@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="task" namespace="/Pages" extends="default">
+        <action name="looptask" class="com.gnamp.struts.action.LoopTaskAction">
+            <result name="add">/Pages/Dialog/addLoopTask.jsp</result>   
+            <result name="edit">/Pages/Dialog/editLoopTask.jsp</result>   
+            <result name="celue">/Pages/Dialog/date.jsp</result>  
+            <result name="clone">/Pages/Dialog/cloneLoopTask.jsp</result>     
+            <result name="list">/Pages/LoopTask.jsp</result>   
+            <result name="content">/Pages/Content.jsp</result>
+        </action>
+        <action name="loopprogram" class="com.gnamp.struts.action.LoopProgramAction">
+            <result name="add">/Pages/Dialog/addLoopProgram.jsp</result>   
+            <result name="edit">/Pages/Dialog/editLoopProgram.jsp</result>    
+            <result name="clone">/Pages/Dialog/cloneLoopProgram.jsp</result>  
+            <result name="list">/Pages/LoopTask.jsp</result>
+        </action>
+        <action name="looprect" class="com.gnamp.struts.action.LoopRectAction">
+            <result name="imageselect">/Pages/Dialog/imageSelect.jsp</result>   
+            <result name="videoselect">/Pages/Dialog/videoSelect.jsp</result>   
+            <result name="musicselect">/Pages/Dialog/musicSelect.jsp</result>
+            <result name="textselect">/Pages/Dialog/textSelect.jsp</result>      
+            <result name="contentselect">/Pages/Dialog/contentSelect.jsp</result>      
+            <result name="editimage">/Pages/Dialog/editimage.jsp</result>         
+            <result name="editcontent">/Pages/Dialog/editcontent.jsp</result>         
+            <result name="editvideo">/Pages/Dialog/editvideo.jsp</result>       
+            <result name="editmusic">/Pages/Dialog/editmusic.jsp</result>       
+            <result name="viewfile">/Pages/Dialog/viewfile.jsp</result>  
+            <result name="addtext">/Pages/Dialog/addText.jsp</result>
+            <result name="addtag">/Pages/Dialog/tagSelect.jsp</result>
+            <result name="addimagetag">/Pages/Dialog/imagetagSelect.jsp</result>
+            <result name="addvideotag">/Pages/Dialog/videotagSelect.jsp</result>
+            <result name="edittext">/Pages/Dialog/editText.jsp</result>  
+            <result name="view">/Pages/showprogram.jsp</result>   
+            <result name="imagepreviewview">/Pages/Dialog/imagepreview.jsp</result>  
+            <result name="videopreviewview">/Pages/Dialog/videopreview.jsp</result>  
+              
+            <result name="exception">/Pages/Dialog/exception.jsp</result> 
+            <result name="flashselect">/Pages/Dialog/flashSelect.jsp</result> 
+            <result name="weburlselect">/Pages/Dialog/webUrlSelect.jsp</result> 
+            <result name="editflash">/Pages/Dialog/editflash.jsp</result> 
+            <result name="addweburl">/Pages/Dialog/addWebUrl.jsp</result> 
+            <result name="editweburl">/Pages/Dialog/editweburl.jsp</result>  
+        </action>  
+        <action name="looptts" class="com.gnamp.struts.action.LoopProgramTTSAction"> 
+            <result name="ttsTextSelect">/Pages/Dialog/ttsTextSelect.jsp</result> 
+            <result name="ttsTextAdd">/Pages/Dialog/ttsTextAdd.jsp</result> 
+            <result name="ttsTextEdit">/Pages/Dialog/ttsTextEdit.jsp</result> 
+            <result name="ttsTextAudtion">/Pages/Dialog/ttsTextAudtion.jsp</result>
+        </action>
+        
+      
+        <action name="demandtask" class="com.gnamp.struts.action.DemandTaskAction">
+            <result name="add">/Pages/Dialog/addDemandTask.jsp</result>   
+            <result name="edit">/Pages/Dialog/editDemandTask.jsp</result>   
+            <result name="clone">/Pages/Dialog/cloneDemandTask.jsp</result>     
+            <result name="list">/Pages/DemandTask.jsp</result> 
+            <result name="content">/Pages/Content.jsp</result>
+        </action>
+        <action name="demandprogram" class="com.gnamp.struts.action.DemandProgramAction">
+            <result name="add">/Pages/Dialog/addDemandProgram.jsp</result>   
+            <result name="edit">/Pages/Dialog/editDemandProgram.jsp</result>    
+            <result name="clone">/Pages/Dialog/cloneDemandProgram.jsp</result>     
+            <result name="list">/Pages/DemandTask.jsp</result>
+        </action>
+        <action name="demandrect" class="com.gnamp.struts.action.DemandRectAction">
+            <result name="imageselect">/Pages/Dialog/imageSelect.jsp</result>   
+            <result name="videoselect">/Pages/Dialog/videoSelect.jsp</result>   
+            <result name="musicselect">/Pages/Dialog/musicSelect.jsp</result>
+            <result name="textselect">/Pages/Dialog/textSelect.jsp</result>      
+            <result name="contentselect">/Pages/Dialog/contentSelect.jsp</result>      
+            <result name="editimage">/Pages/Dialog/editimage.jsp</result>         
+            <result name="editcontent">/Pages/Dialog/editcontent.jsp</result>    
+            <result name="editvideo">/Pages/Dialog/editvideo.jsp</result>       
+            <result name="editmusic">/Pages/Dialog/editmusic.jsp</result>         
+            <result name="viewfile">/Pages/Dialog/viewfile.jsp</result>  
+            <result name="addtext">/Pages/Dialog/addText.jsp</result>
+            <result name="addtag">/Pages/Dialog/tagSelect.jsp</result>
+            <result name="addimagetag">/Pages/Dialog/imagetagSelect.jsp</result>
+            <result name="addvideotag">/Pages/Dialog/videotagSelect.jsp</result>
+            <result name="edittext">/Pages/Dialog/editText.jsp</result>
+            <result name="view">/Pages/showprogram.jsp</result>     
+              
+            <result name="exception">/Pages/Dialog/exception.jsp</result> 
+            <result name="flashselect">/Pages/Dialog/flashSelect.jsp</result> 
+            <result name="weburlselect">/Pages/Dialog/webUrlSelect.jsp</result> 
+            <result name="editflash">/Pages/Dialog/editflash.jsp</result> 
+            <result name="addweburl">/Pages/Dialog/addWebUrl.jsp</result> 
+            <result name="editweburl">/Pages/Dialog/editweburl.jsp</result>  
+        </action>
+        <action name="demandtts" class="com.gnamp.struts.action.DemandProgramTTSAction"> 
+            <result name="ttsTextSelect">/Pages/Dialog/ttsTextSelect.jsp</result> 
+            <result name="ttsTextAdd">/Pages/Dialog/ttsTextAdd.jsp</result> 
+            <result name="ttsTextEdit">/Pages/Dialog/ttsTextEdit.jsp</result> 
+            <result name="ttsTextAudtion">/Pages/Dialog/ttsTextAudtion.jsp</result>
+        </action>
+        
+        
+        
+         <action name="plugintask" class="com.gnamp.struts.action.PluginTaskAction">
+            <result name="add">/Pages/Dialog/addPluginTask.jsp</result>   
+            <result name="edit">/Pages/Dialog/editPluginTask.jsp</result>   
+            <result name="clone">/Pages/Dialog/clonePluginTask.jsp</result>     
+            <result name="list">/Pages/PlugInTask.jsp</result> 
+            <result name="content">/Pages/Content.jsp</result>
+        </action>
+        <action name="pluginprogram" class="com.gnamp.struts.action.PluginProgramAction">
+            <result name="add">/Pages/Dialog/addPluginProgram.jsp</result>   
+            <result name="edit">/Pages/Dialog/editPluginProgram.jsp</result>    
+            <result name="clone">/Pages/Dialog/clonePluginProgram.jsp</result>     
+            <result name="list">/Pages/PlugInTask.jsp</result>
+        </action>
+        <action name="pluginrect" class="com.gnamp.struts.action.PluginRectAction">
+            <result name="imageselect">/Pages/Dialog/imageSelect.jsp</result>   
+            <result name="videoselect">/Pages/Dialog/videoSelect.jsp</result>   
+            <result name="musicselect">/Pages/Dialog/musicSelect.jsp</result> 
+            <result name="textselect">/Pages/Dialog/textSelect.jsp</result>    
+            <result name="contentselect">/Pages/Dialog/contentSelect.jsp</result>      
+            <result name="editimage">/Pages/Dialog/editimage.jsp</result>         
+            <result name="editcontent">/Pages/Dialog/editcontent.jsp</result>     
+            <result name="editvideo">/Pages/Dialog/editvideo.jsp</result>       
+            <result name="editmusic">/Pages/Dialog/editmusic.jsp</result>      
+            <result name="viewfile">/Pages/Dialog/viewfile.jsp</result>     
+            <result name="addtext">/Pages/Dialog/addText.jsp</result>
+            <result name="addtag">/Pages/Dialog/tagSelect.jsp</result>
+            <result name="addimagetag">/Pages/Dialog/imagetagSelect.jsp</result>
+            <result name="addvideotag">/Pages/Dialog/videotagSelect.jsp</result>
+            <result name="edittext">/Pages/Dialog/editText.jsp</result>
+            <result name="view">/Pages/showprogram.jsp</result>     
+              
+            <result name="exception">/Pages/Dialog/exception.jsp</result> 
+            <result name="flashselect">/Pages/Dialog/flashSelect.jsp</result> 
+            <result name="weburlselect">/Pages/Dialog/webUrlSelect.jsp</result> 
+            <result name="editflash">/Pages/Dialog/editflash.jsp</result> 
+            <result name="addweburl">/Pages/Dialog/addWebUrl.jsp</result> 
+            <result name="editweburl">/Pages/Dialog/editweburl.jsp</result>  
+        </action>
+        <action name="plugintts" class="com.gnamp.struts.action.PluginProgramTTSAction"> 
+            <result name="ttsTextSelect">/Pages/Dialog/ttsTextSelect.jsp</result> 
+            <result name="ttsTextAdd">/Pages/Dialog/ttsTextAdd.jsp</result> 
+            <result name="ttsTextEdit">/Pages/Dialog/ttsTextEdit.jsp</result> 
+            <result name="ttsTextAudtion">/Pages/Dialog/ttsTextAudtion.jsp</result>
+        </action>
+        
+        <action name="date" class="com.gnamp.struts.action.RangeAction">  
+            <result name="preprgm">/Pages/Dialog/prgm.jsp</result>   
+            <result name="viewdate">/Pages/Dialog/viewdate.jsp</result>  
+        </action> 
+        
+        <action name="templet" class="com.gnamp.struts.action.TemplateAction">    
+            <result name="list">/Pages/Template.jsp</result>
+            <result name="add">/Pages/Dialog/addtemplet.jsp</result>  
+            <result name="edit">/Pages/Dialog/edittemplet.jsp</result>   
+            <result name="content">/Pages/Layout.jsp</result>    
+            <result name="systemcontent">/Pages/SystemLayout.jsp</result>  
+            <result name="imagepreviewview">/Pages/Dialog/imagepreview.jsp</result>  
+            <result name="videopreviewview">/Pages/Dialog/videopreview.jsp</result>        
+            <result name="viewfile">/Pages/Dialog/viewfile.jsp</result>  
+            <result name="imageselect">/Pages/Dialog/imagetemplet.jsp</result>        
+            <result name="editimage">/Pages/Dialog/editimagetemplet.jsp</result>    
+            <result name="showtemplate">/Pages/showtemplate.jsp</result>   
+        </action> 
+        
+	</package>
+
+</struts>

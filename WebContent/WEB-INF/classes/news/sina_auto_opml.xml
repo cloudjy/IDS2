@@ -1,0 +1,24 @@
+<opml version="1.0">
+<head>
+<title>auto-新浪rss</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+</head>
+<body>
+<outline title="汽车新闻-新浪RSS" text="汽车新闻-新浪RSS">
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/auto.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="行业动态" title="行业动态" type="rss" xmlUrl="http://rss.sina.com.cn/auto/news/t/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="购车指导" title="购车指导" type="rss" xmlUrl="http://rss.sina.com.cn/auto/guide/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="新车上市" title="新车上市" type="rss" xmlUrl="http://rss.sina.com.cn/auto/newcar/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="车市·降价" title="车市·降价" type="rss" xmlUrl="http://rss.sina.com.cn/auto/sales/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="企业新闻" title="企业新闻" type="rss" xmlUrl="http://rss.sina.com.cn/auto/news/e/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车养护" title="汽车养护" type="rss" xmlUrl="http://rss.sina.com.cn/auto/servicing/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车召回" title="汽车召回" type="rss" xmlUrl="http://rss.sina.com.cn/auto/recalls/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车保险" title="汽车保险" type="rss" xmlUrl="http://rss.sina.com.cn/auto/insurance/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车配件" title="汽车配件" type="rss" xmlUrl="http://rss.sina.com.cn/auto/parts/news/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车用品" title="汽车用品" type="rss" xmlUrl="http://rss.sina.com.cn/auto/automotive/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="改装" title="改装" type="rss" xmlUrl="http://rss.sina.com.cn/auto/ultratune/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="汽车轮胎" title="汽车轮胎" type="rss" xmlUrl="http://rss.sina.com.cn/auto/tire/index.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="交通" title="交通" type="rss" xmlUrl="http://rss.sina.com.cn/auto/traffic/index.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

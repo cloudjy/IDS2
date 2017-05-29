@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from TaskLoadService WSDL service -->
+
+  <service name="TaskLoad" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://webservice.gnamp.com"/>
+      <parameter name="wsdlServiceElement" value="TaskLoadService"/>
+      <parameter name="schemaQualified" value="http://model.server.gnamp.com,http://webservice.gnamp.com"/>
+      <parameter name="wsdlServicePort" value="TaskLoad"/>
+      <parameter name="className" value="com.gnamp.webservice.TaskLoad"/>
+      <parameter name="wsdlPortType" value="TaskLoad"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getTaskDownLoadList" qname="operNS:GetTaskDownLoadList" returnQName="retNS:GetTaskDownLoadListReturn" returnType="rtns:LoopTask" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getDemandTaskDownLoadList" qname="operNS:GetDemandTaskDownLoadList" returnQName="retNS:GetDemandTaskDownLoadListReturn" returnType="rtns:DemandTask" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getPlugInTaskDownLoadList" qname="operNS:GetPlugInTaskDownLoadList" returnQName="retNS:GetPlugInTaskDownLoadListReturn" returnType="rtns:PluginTask" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getTaskAllFiles" qname="operNS:GetTaskAllFiles" returnQName="retNS:GetTaskAllFilesReturn" returnType="rtns:File" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:task_id" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getDemandTaskAllFiles" qname="operNS:GetDemandTaskAllFiles" returnQName="retNS:GetDemandTaskAllFilesReturn" returnType="rtns:File" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:task_id" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getPlugInTaskAllFiles" qname="operNS:GetPlugInTaskAllFiles" returnQName="retNS:GetPlugInTaskAllFilesReturn" returnType="rtns:File" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:task_id" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getGroupAllTerminals" qname="operNS:GetGroupAllTerminals" returnQName="retNS:GetGroupAllTerminalsReturn" returnType="rtns:Terminal" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:groupid" type="tns:int"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:child" type="tns:boolean"/>
+      </operation>
+      <operation xmlns:operNS="http://webservice.gnamp.com" xmlns:retNS="http://webservice.gnamp.com" xmlns:rtns="http://model.server.gnamp.com" name="getAllGroups" qname="operNS:GetAllGroups" returnQName="retNS:GetAllGroupsReturn" returnType="rtns:Group" soapAction="">
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szDomain" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szUid" type="tns:string"/>
+        <parameter xmlns:pns="http://webservice.gnamp.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:szPwd" type="tns:string"/>
+      </operation>
+      <parameter name="allowedMethods" value="getPlugInTaskAllFiles getTaskAllFiles getAllGroups getDemandTaskAllFiles getPlugInTaskDownLoadList getDemandTaskDownLoadList getGroupAllTerminals getTaskDownLoadList"/>
+
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:DemandTask" type="java:com.gnamp.server.model.DemandTask" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:Terminal" type="java:com.gnamp.server.model.Terminal" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:File" type="java:com.gnamp.server.model.File" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:Task" type="java:com.gnamp.server.model.Task" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:Group" type="java:com.gnamp.server.model.Group" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:PluginTask" type="java:com.gnamp.server.model.PluginTask" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://model.server.gnamp.com" qname="ns:LoopTask" type="java:com.gnamp.server.model.LoopTask" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

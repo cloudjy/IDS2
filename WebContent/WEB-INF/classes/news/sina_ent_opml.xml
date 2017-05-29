@@ -1,0 +1,19 @@
+<opml version="1.0">
+<head>
+<title>ent-新浪rss</title>
+</head>
+<body>
+<outline title="影音娱乐-新浪RSS" text="影音娱乐-新浪RSS">
+<outline text="娱乐要闻汇总" title="娱乐要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/ent/hot_roll.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/ent.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="音乐" title="音乐" type="rss" xmlUrl="http://rss.sina.com.cn/ent/music/focus12.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="电视前沿" title="电视前沿" type="rss" xmlUrl="http://rss.sina.com.cn/ent/tv/focus7.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="电影宝库" title="电影宝库" type="rss" xmlUrl="http://rss.sina.com.cn/ent/film/focus7.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="明星全接触" title="明星全接触" type="rss" xmlUrl="http://rss.sina.com.cn/ent/star/focus7.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="内地明星" title="内地明星" type="rss" xmlUrl="http://rss.sina.com.cn/ent/inner.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="港台明星" title="港台明星" type="rss" xmlUrl="http://rss.sina.com.cn/ent/hongkong.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="日韩明星" title="日韩明星" type="rss" xmlUrl="http://rss.sina.com.cn/ent/star/japan.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="欧美明星" title="欧美明星" type="rss" xmlUrl="http://rss.sina.com.cn/ent/star/outer.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

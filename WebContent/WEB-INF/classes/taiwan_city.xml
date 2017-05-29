@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities version="2015-01-01 17:00:00">
+  <state name="台灣">
+    <city name="臺北市" woeid="2306179"/>
+    <city name="新北市" woeid="20070569"/>
+    <city name="基隆市" woeid="2306188"/>
+    <city name="桃園市" woeid="2298866"/>
+    <city name="新竹市" woeid="2306185"/>
+    <city name="苗栗市" woeid="2301128"/>
+    <city name="臺中市" woeid="2306181"/>
+    <city name="彰化市" woeid="2306183"/>
+    <city name="南投市" woeid="2306204"/>
+    <city name="雲林"   woeid="2347346"/>
+    <city name="嘉義市" woeid="2296315"/>
+    <city name="臺南市" woeid="2306182"/>
+    <city name="高雄市" woeid="2306180"/>
+    <city name="屏東市" woeid="2306189"/>
+    <city name="宜蘭市" woeid="2306198"/>
+    <city name="花蓮市" woeid="2306187"/>
+    <city name="臺東市" woeid="2306190"/> 
+  </state> 
+</cities>

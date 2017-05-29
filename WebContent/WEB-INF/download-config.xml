@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<package>
+		<action name="ReportAlive.aspx" class="com.gnamp.download.ReportAlive"/>
+		
+		<action name="GetFile.aspx" class="com.gnamp.download.GetFile"/>
+		<action name="GetFileList.aspx" class="com.gnamp.download.GetFileList"/>
+		<action name="GetTaskList.aspx" class="com.gnamp.download.GetTaskList"/>
+		<action name="GetProgramList.aspx" class="com.gnamp.download.GetPlayList"/>
+		<action name="GetStrategyList.aspx" class="com.gnamp.download.GetStrategyList"/>
+		<action name="GetBin.aspx" class="com.gnamp.download.GetApp"/>
+		<action name="GetKernel.aspx" class="com.gnamp.download.GetKernel"/>
+		<action name="GetConfig.aspx" class="com.gnamp.download.GetConfig"/>
+		<action name="GetSubtitle.aspx" class="com.gnamp.download.GetSubtitle"/>
+		<action name="GetSchedule.aspx" class="com.gnamp.download.GetSchedule"/>
+		
+		<action name="ReportPowerOn.aspx" class="com.gnamp.download.ReportPowerOn"/>
+		<action name="ReportProgress.aspx" class="com.gnamp.download.ReportProgress"/>
+		<action name="ReportException.aspx" class="com.gnamp.download.ReportException"/>
+		
+		<action name="UploadScreen.aspx" class="com.gnamp.download.UploadScreen"/>
+		<action name="UploadLog.aspx" class="com.gnamp.download.UploadPlayLog"/>   
+		 
+		<action name="GetSourceList.aspx" class="com.gnamp.download.GetSourceList"/>    
+		<action name="GetTextSource.aspx" class="com.gnamp.download.GetSourceXml"/>   
+		<action name="GetSourceXml.aspx" class="com.gnamp.download.GetSourceXml"/>   
+		<action name="GetSourceFile.aspx" class="com.gnamp.download.GetSourceFile"/>   
+		
+		
+		<action name="GetMetaFile.aspx" class="com.gnamp.download.GetMetaFile"/>  
+		<action name="GetMetaFont.aspx" class="com.gnamp.download.GetMetaFont"/>  
+		<action name="GetMetaWeatherImage.aspx" class="com.gnamp.download.GetMetaWeatherImage"/>  
+		
+		<action name="RequestSetting.aspx" class="com.gnamp.download.RequestSetting"/>     
+		<action name="ReportHardware.aspx" class="com.gnamp.download.ReportHardware"/>   
+		
+		<action name="GetTTSFile.aspx" class="com.gnamp.download.GetTTSFile"/>
+		<action name="GetFontFile.aspx" class="com.gnamp.download.GetFontFile"/> 
+	</package>
+</config>

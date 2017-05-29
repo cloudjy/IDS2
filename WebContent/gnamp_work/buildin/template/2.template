@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="2" category="企业通用" name="企业通用02" desc="横:视频+2个文字+蓝色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353491573" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="2" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#7C9E73"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="2" marqueetype="2"
+		nH="90" nW="1456" nX="414" nY="61" rectid="1353491781" rectname="文字区域"
+		speed="3" transparent="false" />
+	<videorect layer="3" nH="825" nW="1467" nX="60" nY="196"
+		rectid="1353491782" rectname="视频区域" />
+	<marqueerect align_h="center" align_v="center" backcolor="#7CB973"
+		fontcolor="#FFFFCC" fontname="" fontsize="25" layer="4" marqueetype="5"
+		nH="821" nW="314" nX="1558" nY="198" rectid="1353491783" rectname="文字区域(1)"
+		speed="2" transparent="false" />
+	<imagerect layer="5" nH="120" nW="340" nX="50" nY="50"
+		rectid="1353492093" rectname="图片区域(1)" />
+</template>

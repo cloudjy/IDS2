@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="tagpack" namespace="/Pages" extends="default">
+		<action name="tag" class="com.gnamp.struts.action.SourceAction">
+			<result name="success">/Pages/tag/taglist.jsp</result>
+			<result name="addtag">/Pages/tag/tagadd.jsp</result>
+			<result name="edittag">/Pages/tag/tagedit.jsp</result>
+			<result name="imageSelect">/Pages/tag/imageSelect.jsp</result>
+			<result name="textSelect">/Pages/tag/textSelect.jsp</result>
+			<result name="rssSelect">/Pages/tag/rssSelect.jsp</result>
+			<result name="addword">/Pages/tag/addText.jsp</result>
+			<result name="preEditTextTag">/Pages/tag/editText.jsp</result>
+			<result name="preEditRssTag">/Pages/tag/editRss.jsp</result>
+			<result name="uploadFileTagUpload">/Pages/tag/uploadFileTag.jsp</result>
+			<result name="addRss">/Pages/tag/addRss.jsp</result>
+			<result name="showCustomRss">/Pages/tag/customRssView.jsp</result>
+		</action>
+		
+		<action name="tagcate" class="com.gnamp.struts.action.SourceCategoryAction">
+			<result name="add">/Pages/tag/tagtreeadd.jsp</result>
+			<result name="edit">/Pages/tag/tagtreeedit.jsp</result>
+		</action>
+		<action name="internal" class="com.gnamp.struts.action.InternalCategoryAction">
+			<result name="success">/Pages/tag/internallist.jsp</result>
+			<result name="select_text">/Pages/tag/internalSelect.jsp</result>
+			<result name="showcatgorycontext">/Pages/tag/internalCategoryContext.jsp</result>
+		</action>
+		<action name="fileTagUpload" class="com.gnamp.struts.action.FileTagUploadAction">
+		</action>
+		<action name="flexfileTagUpload" class="com.gnamp.struts.action.FlexFileTagUploadAction">
+		</action>
+		
+	</package>
+</struts>

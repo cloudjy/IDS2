@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="13" category="企业通用" name="企业通用13" desc="横:视频+图片+天气+灰色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353548749" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="13" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<videorect layer="2" nH="1080" nW="1620" nX="0" nY="0"
+		rectid="1353549011" rectname="视频区域" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFBA5" fontname="" fontsize="20" layer="3" nH="59" nW="158"
+		nX="1724" nY="180" rectid="1353549012" rectname="时间区域" style="0"
+		transparent="true" />
+	<weatherlogorect layer="4" nH="122" nW="122" nX="1700"
+		nY="706" rectid="1353549013" rectname="天气图标区域" style="today" />
+	<weathertextrect align_h="left" align_v="center"
+		backcolor="#000000" fontcolor="#000000" fontname="" fontsize="20"
+		layer="5" nH="38" nW="148" nX="1700" nY="829" rectid="1353549014"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<weathertemprect align_h="left" align_v="center"
+		backcolor="#000000" fontcolor="#000000" fontname="" fontsize="20"
+		layer="6" nH="38" nW="216" nX="1700" nY="871" rectid="1353549015"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<weekrect align_h="left" align_v="center" backcolor="#000000"
+		fontcolor="#000000" fontname="" fontsize="20" layer="7" nH="28" nW="101"
+		nX="1700" nY="928" rectid="1353549016" rectname="星期区域" style="0"
+		transparent="true" />
+	<daterect align_h="left" align_v="center" backcolor="#000000"
+		fontcolor="#000000" fontname="" fontsize="20" layer="8" nH="30" nW="216"
+		nX="1700" nY="964" rectid="1353549017" rectname="日期区域" style="1"
+		transparent="true" />
+</template>

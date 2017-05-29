@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="user" namespace="/Pages" extends="default">
+		<action name="user" class="com.gnamp.struts.action.UserAction">
+			<result name="validate">index</result>
+			<result name="success">/Pages/usermana/userlist.jsp</result>
+			<result name="add">/Pages/usermana/useradd.jsp</result>
+			<result name="preedit">/Pages/usermana/useredit.jsp</result>
+			<result name="editattr">/Pages/usermana/usereditattr.jsp</result>
+			
+			
+		</action>
+			<action name="role" class="com.gnamp.struts.action.RoleAction">
+			<result name="validate">index</result>
+			<result name="preedit">/Pages/rolemana/roleedit.jsp</result>
+			<result name="success">/Pages/rolemana/rolelist.jsp</result>
+			<result name="preadd">/Pages/rolemana/roleadd.jsp</result>
+			<result name="editattr">/Pages/rolemana/roleeditattr.jsp</result>
+		</action>
+	</package>
+</struts>

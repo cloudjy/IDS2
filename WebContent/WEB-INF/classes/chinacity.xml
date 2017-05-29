@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities version="2011-05-08 17:00:00">
+  <state name="北京">
+    <city name="北京" woeid="2151330"/>
+  </state>
+  <state name="上海">
+    <city name="上海" woeid="2151849"/>
+  </state>
+  <state name="天津">
+    <city name="天津" woeid="2159908"/>
+  </state>
+  <state name="重庆">
+    <city name="重庆" woeid="2158434"/>
+  </state>
+  <state name="安徽">
+    <city name="合肥" woeid="2127866"/>
+    <city name="安庆" woeid="2127868"/>
+    <city name="亳州" woeid="2127876"/>
+    <city name="蚌埠" woeid="2127869"/>
+    <city name="阜阳" woeid="2127870"/>
+    <city name="黄山" woeid="2126620"/>
+    <city name="芜湖" woeid="2127875"/>    
+  </state>
+  <state name="福建">
+    <city name="福州" woeid="2139963"/>
+    <city name="南平" woeid="2139964"/>
+    <city name="泉州" woeid="2139965"/>
+    <city name="厦门" woeid="2139967"/>
+    <city name="漳州" woeid="2139969"/>
+  </state>
+  <state name="甘肃">
+    <city name="兰州" woeid="2145605"/>
+    <city name="白银" woeid="2145631"/>
+    <city name="定西" woeid="2145619"/>
+    <city name="敦煌" woeid="2145159"/>
+    <city name="平凉" woeid="2145615"/>
+    <city name="天水" woeid="2145609"/>
+    <city name="张掖" woeid="2145618"/>
+  </state>
+  <state name="广东">
+    <city name="广州" woeid="2161838"/>
+    <city name="佛山" woeid="2161843"/>
+    <city name="河源" woeid="2161878"/>
+    <city name="惠州" woeid="2161845"/>
+    <city name="江门" woeid="2161847"/>
+    <city name="茂名" woeid="2161851"/>
+    <city name="梅州" woeid="2161865"/>
+    <city name="汕头" woeid="2162312"/>
+    <city name="汕尾" woeid="12687655"/>
+    <city name="韶关" woeid="2161852"/>
+    <city name="深圳" woeid="2161853"/>
+    <city name="阳江" woeid="12687673"/>
+    <city name="湛江" woeid="2161839"/>
+  </state>
+  <state name="广西">
+    <city name="南宁" woeid="2166473"/>
+    <city name="百色" woeid="12686582"/>
+    <city name="北海" woeid="2166477"/>
+    <city name="桂林" woeid="2166474"/>
+    <city name="河池" woeid="2167053"/>
+    <city name="柳州" woeid="12686621"/>
+    <city name="钦州" woeid="2166484"/>
+    <city name="梧州" woeid="2166475"/>
+  </state>
+  <state name="贵州">
+    <city name="贵阳" woeid="2146703"/>
+    <city name="安顺" woeid="2146704"/>
+    <city name="毕节" woeid="2146705"/>
+    <city name="兴仁" woeid="2146721"/>
+    <city name="遵义" woeid="2146713"/>
+  </state>
+  <state name="河北">
+    <city name="石家庄" woeid="2171287"/>
+    <city name="保定" woeid="2171290"/>
+    <city name="承德" woeid="2171292"/>
+    <city name="秦皇岛" woeid="2171294"/>
+    <city name="唐山" woeid="2171288"/>
+    <city name="邢台" woeid="2171295"/>
+    <city name="张家口" woeid="2171688"/>
+  </state>
+  <state name="河南">
+    <city name="郑州" woeid="2172736"/>
+    <city name="安阳" woeid="12511982"/>
+    <city name="开封" woeid="2172737"/>
+    <city name="洛阳" woeid="2172738"/>
+    <city name="南阳" woeid="2172743"/>
+    <city name="信阳" woeid="2172746"/>
+    <city name="驻马店" woeid="2172748"/>
+  </state>
+  <state name="黑龙江">
+    <city name="哈尔滨" woeid="2141166"/>
+    <city name="黑河" woeid="2141192"/>
+    <city name="鸡西" woeid="2141170"/>
+    <city name="漠河" woeid="2141244"/>
+    <city name="牡丹江" woeid="2141176"/>
+    <city name="齐齐哈尔" woeid="2141167"/>
+    <city name="伊春" woeid="2141180"/>
+  </state>
+  <state name="海南">
+    <city name="海口" woeid="2162779"/>
+    <city name="东方" woeid="12687691"/>
+    <city name="琼海" woeid="12687696"/>
+  </state>
+  <state name="湖北">
+    <city name="武汉" woeid="2163866"/>
+    <city name="孝感" woeid="2163885"/>
+    <city name="宜昌" woeid="2163872"/>
+    <city name="黄陂" woeid="2163895"/>
+    <city name="黄石" woeid="2163875"/>
+  </state>
+  <state name="湖南">
+    <city name="长沙" woeid="2142699"/>
+    <city name="常德" woeid="20071152"/>    
+    <city name="郴州" woeid="2142703"/>
+    <city name="岳阳" woeid="2142707"/>
+    <city name="湘潭" woeid="2142701"/>
+    <city name="永州" woeid="2142715"/>
+  </state>
+  <state name="吉林">
+    <city name="长春" woeid="2137321"/>
+    <city name="吉林" woeid="2138121"/>
+    <city name="四平" woeid="2138128"/>
+    <city name="长白" woeid="2137320"/>
+    <city name="延吉" woeid="2138130"/>
+  </state>
+  <state name="江苏">
+    <city name="昆山" woeid="2137109"/>
+    <city name="南京" woeid="2137081"/>
+    <city name="淮阴" woeid="2135024"/>
+    <city name="常熟" woeid="2137095"/>
+    <city name="常州" woeid="2137085"/>
+    <city name="南通" woeid="2137088"/>
+    <city name="射阳" woeid="12685598"/>
+    <city name="苏州" woeid="2137082"/>
+    <city name="徐州" woeid="2137084"/>
+    <city name="镇江" woeid="2137093"/>
+  </state>
+  <state name="江西">
+    <city name="南昌" woeid="2133704"/>
+    <city name="赣州" woeid="2133707"/>
+    <city name="吉安" woeid="2133708"/>
+    <city name="景德镇" woeid="12685489"/>
+    <city name="九江" woeid="2133710"/>
+    <city name="宜春" woeid="2133712"/>    
+  </state>
+  <state name="辽宁">
+    <city name="沈阳" woeid="2148332"/>
+    <city name="鞍山" woeid="2147988"/>
+    <city name="本溪" woeid="2147989"/>
+    <city name="朝阳" woeid="2147994"/>
+    <city name="丹东" woeid="2147990"/>
+    <city name="大连" woeid="2147986"/>
+    <city name="抚顺" woeid="2147987"/>
+    <city name="锦州" woeid="2147999"/>
+    <city name="辽阳" woeid="2148001"/>
+    <city name="铁岭" woeid="2148005"/>
+    <city name="营口" woeid="2148006"/>
+  </state>
+  <state name="内蒙古">
+   <city name="呼和浩特" woeid="2149760"/>
+   <city name="赤峰" woeid="2149762"/>
+   <city name="通辽" woeid="2149767"/>
+  </state>
+  <state name="宁夏">
+    <city name="银川" woeid="2150551"/>
+    <city name="盐池" woeid="2150565"/>
+    <city name="中宁" woeid="2150565"/>
+  </state>
+  <state name="山西">
+    <city name="太原" woeid="2154547"/>
+    <city name="五台山" woeid="28742102"/>
+    <city name="阳泉" woeid="2154552"/>
+    <city name="运城" woeid="2154561"/>
+  </state>
+  <state name="陕西">
+    <city name="西安" woeid="2155661"/>
+    <city name="安康" woeid="2156953"/>
+    <city name="宝鸡" woeid="2156954"/>
+    <city name="华山" woeid="28742101"/>
+    <city name="汉中" woeid="2156955"/>
+    <city name="临潼" woeid="2156969"/>
+    <city name="延安" woeid="2156695"/>
+    <city name="榆林" woeid="2156963"/>
+    <city name="渭南" woeid="2156958"/>
+    <city name="咸阳" woeid="2156959"/>
+  </state>
+  <state name="山东">
+    <city name="济南" woeid="2168327"/>
+    <city name="潍坊" woeid="2168348"/>
+    <city name="青岛" woeid="26198083"/>
+    <city name="淄博" woeid="12687155"/>
+    <city name="泰山" woeid="23686083"/>
+  </state>
+  <state name="青海">
+    <city name="西宁" woeid="2138941"/>
+    <city name="德令哈" woeid="2138988"/>
+    <city name="格尔木" woeid="2138942"/>
+  </state>
+  <state name="四川">
+    <city name="成都" woeid="2158433"/>
+    <city name="广安" woeid="2157942"/>
+    <city name="泸州" woeid="2158438"/>
+    <city name="眉山" woeid="2158474"/>
+    <city name="绵阳" woeid="2158439"/>
+    <city name="南充" woeid="2158888"/>
+    <city name="内江" woeid="2158441"/>
+    <city name="遂宁" woeid="2158442"/>
+    <city name="宜宾" woeid="2158444"/>
+    <city name="雅安" woeid="2158452"/>
+  </state>
+  <state name="新疆">
+    <city name="乌鲁木齐" woeid="2143692"/>
+    <city name="克拉玛依" woeid="2144016"/>
+    <city name="喀什" woeid="2143696"/>
+  </state>
+  <state name="西藏">
+    <city name="拉萨" woeid="2144789"/>
+    <city name="日喀则" woeid="2144791"/>
+  </state>
+  <state name="云南">
+    <city name="昆明" woeid="2160693"/>
+    <city name="安宁" woeid="2160723"/>
+    <city name="保山" woeid="2160704"/>
+    <city name="楚雄" woeid="2160696"/>
+    <city name="大理" woeid="20261643"/>
+    <city name="景洪" woeid="12687501"/>
+    <city name="临沧" woeid="2160241"/>
+    <city name="潞西" woeid="2160710"/>
+    <city name="瑞丽" woeid="2160980"/>
+    <city name="昭通" woeid="2160703"/>
+  </state>
+  <state name="浙江">
+     <city name="杭州" woeid="2132574"/>
+     <city name="湖州" woeid="2132575"/>
+     <city name="嘉兴" woeid="2132577"/>
+     <city name="丽水" woeid="2132588"/>
+     <city name="宁波" woeid="2132579"/>
+     <city name="衢州" woeid="2132580"/>
+     <city name="温州" woeid="2132582"/>
+     <city name="绍兴" woeid="2132581"/>
+  </state>
+  <state name="香港">
+    <city name="香港" woeid="2165352"/>
+  </state>
+  <state name="澳门">
+    <city name="澳门" woeid="2165352"/>
+  </state>
+  <state name="台湾">
+    <city name="台北" woeid="2306179"/>
+    <city name="高雄" woeid="2306180"/>
+    <city name="台中" woeid="2306181"/>
+    <city name="台南" woeid="2306182"/>
+    <city name="基隆" woeid="2306188"/>
+    <city name="新竹" woeid="2306185"/>
+    <city name="嘉义" woeid="2296315"/>
+  </state>
+</cities>

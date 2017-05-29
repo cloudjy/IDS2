@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="3"  category="企业通用" name="企业通用03" desc="横:视频+图片+天气+绿色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353406050" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="3" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#336666" fontname="" fontsize="20" layer="2" marqueetype="3"
+		nH="65" nW="426" nX="58" nY="68" rectid="1353406342" rectname="文字区域"
+		speed="0" transparent="false" />
+	<weatherlogorect layer="3" nH="108" nW="108" nX="752"
+		nY="51" rectid="1353406343" rectname="天气图标区域" style="today" />
+	<weathertextrect align_h="left" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="4" nH="37" nW="164" nX="864" nY="56" rectid="1353406344"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<weathertemprect align_h="left" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="5" nH="45" nW="199" nX="867" nY="98" rectid="1353406345"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<daterect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="6" nH="50" nW="355"
+		nX="1106" nY="93" rectid="1353406346" rectname="日期区域" style="1"
+		transparent="true" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="7" nH="64" nW="207"
+		nX="1682" nY="79" rectid="1353406347" rectname="时间区域" style="0"
+		transparent="true" />
+	<imagerect layer="8" nH="274" nW="488" nX="32" nY="243"
+		rectid="1353406348" rectname="图片区域(1)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#CCFFCC"
+		fontcolor="#336666" fontname="" fontsize="30" layer="9" marqueetype="5"
+		nH="424" nW="485" nX="35" nY="556" rectid="1353406349" rectname="文字区域(1)"
+		speed="2" transparent="false" />
+	<videorect layer="10" nH="739" nW="1314" nX="561" nY="244"
+		rectid="1353406350" rectname="视频区域" />
+</template>

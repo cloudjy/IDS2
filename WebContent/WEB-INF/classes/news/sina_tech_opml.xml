@@ -1,0 +1,21 @@
+<opml version="1.0">
+<head>
+<title>tech-新浪rss</title>
+</head>
+<body>
+<outline title="科技频道-新浪RSS" text="科技频道-新浪RSS">
+<outline text="科技要闻汇总" title="科技要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/tech/rollnews.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/tech.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="互联网新闻" title="互联网新闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/internet/home28.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="手机资讯" title="手机资讯" type="rss" xmlUrl="http://rss.sina.com.cn/tech/mobile/mobile_6.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="3G新闻" title="3G新闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/3G/guonei.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="笔记本新闻" title="笔记本新闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/notebook/193_1.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="电信新闻" title="电信新闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/tele/gn37.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="业界新闻" title="业界新闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/it/gn37.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="科技下载" title="科技下载" type="rss" xmlUrl="http://rss.sina.com.cn/tech/down/down20.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="科普要闻" title="科普要闻" type="rss" xmlUrl="http://rss.sina.com.cn/tech/discovery/discovery.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="数码资讯" title="数码资讯" type="rss" xmlUrl="http://rss.sina.com.cn/tech/number/new_camera.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="家电资讯" title="家电资讯" type="rss" xmlUrl="http://rss.sina.com.cn/tech/elec/buy_elec.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

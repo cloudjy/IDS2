@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="terminal" namespace="/Pages" extends="default">
+		<action name="group" class="com.gnamp.struts.action.GroupAction">
+            <result name="addgroup">/Pages/Dialog/addgroup.jsp</result>
+            <result name="edit">/Pages/Dialog/editGroup.jsp</result>
+            <result name="list">/Pages/Terminal.jsp</result>
+           
+        </action>
+        <action name="terminal" class="com.gnamp.struts.action.TerminalAction">
+            <result name="add">/Pages/Dialog/addTerminal.jsp</result>
+            <result name="more">/Pages/Dialog/addMore.jsp</result>
+            <result name="edit">/Pages/Dialog/editTerminal.jsp</result>
+            <result name="task">/Pages/Dialog/terminalTask.jsp</result>
+            <result name="subtitle">/Pages/Dialog/subtitle.jsp</result>
+            <result name="upgrade">/Pages/Dialog/terminalUpgrade.jsp</result>
+            <result name="monitor">/Pages/Dialog/terminalMonitor.jsp</result>
+            <result name="report">/Pages/Dialog/terminalReport.jsp</result>
+            <result name="exp">/Pages/Dialog/terminalExp.jsp</result>
+            <result name="event">/Pages/Dialog/terminalEvent.jsp</result>
+            <result name="list">/Pages/Terminal.jsp</result>
+            <result name="groupsubtitle">/Pages/Dialog/groupsubtitle.jsp</result>
+            <result name="groupcity">/Pages/Dialog/groupcity.jsp</result>
+            <result name="preview">/Pages/Dialog/preview.jsp</result>
+             <result name="selectterminal">/Pages/selectTerminal.jsp</result>
+        </action>
+        <action name="terminalimport" class="com.gnamp.struts.action.TerminalImportAction">
+         	<result name="importter">/Pages/Dialog/terminalimport.jsp</result>
+        </action>
+        <action name="todoterminal" class="com.gnamp.struts.action.TodoTerminalAction" method="tomodify">
+            <result name="edit">/Pages/Dialog/edittodo.jsp</result>     
+        </action>
+        
+        <action name="keylog" class="com.gnamp.struts.action.KeyLogAction">
+            <result name="list">/Pages/InteractiveStatistics.jsp</result>
+            <result name="pipelogs">/Pages/Pipelogs.jsp</result>
+            <result name="selectterminal">/Pages/selectTerminal.jsp</result>
+        </action>
+        
+         <action name="playlog" class="com.gnamp.struts.action.PlayLogAction">
+            <result name="list">/Pages/PlaybackReport.jsp</result>
+            <result name="upload">/Pages/JavaLogsUpload.jsp</result>
+            <result name="month">/Pages/PlaybackMonth.jsp</result>
+        </action>
+        
+         <action name="setting" class="com.gnamp.struts.action.TerminalSettingAction">
+         	<result>/Pages/setting/volume.jsp</result>
+            <result name="device">/Pages/setting/volume.jsp</result>
+            <result name="network">/Pages/setting/ethernet.jsp</result>
+            <result name="server">/Pages/setting/server.jsp</result>
+            
+			<result name="volume">/Pages/setting/volume.jsp</result>
+			<result name="brightness">/Pages/setting/brightness.jsp</result>
+			<result name="power">/Pages/setting/power.jsp</result>
+			<result name="standby">/Pages/setting/standby.jsp</result>
+			<result name="download">/Pages/setting/download.jsp</result>
+			<result name="demand">/Pages/setting/demand.jsp</result>
+			<result name="password">/Pages/setting/password.jsp</result>
+			<result name="advanced">/Pages/setting/advanced.jsp</result>
+	       
+            <result name="ethernet">/Pages/setting/ethernet.jsp</result>
+            <result name="wifi">/Pages/setting/wifi.jsp</result>
+            <result name="3g">/Pages/setting/3g.jsp</result>
+            <result name="pppoe">/Pages/setting/pppoe.jsp</result>
+            <result name="ap">/Pages/setting/ap.jsp</result>
+        </action>
+        
+        <action name="watcher" class="com.gnamp.struts.action.TerminalWatcherAction">
+            <result>/Pages/watcher/watcher.jsp</result>
+            <result name="watcher">/Pages/watcher/watcher.jsp</result> 
+        </action>
+        
+	</package>
+
+</struts>

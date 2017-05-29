@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1080" id="7" category="企业通用" name="企业通用07" desc="横:视频+图片+天气+紫色背景" width="1920">
+	<imagerect layer="1" nH="1080" nW="1920" nX="0" nY="0"
+		rectid="1353493272" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="7" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="2" marqueetype="3"
+		nH="48" nW="263" nX="54" nY="70" rectid="1353495893" rectname="文字区域"
+		speed="0" transparent="false" />
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="3" marqueetype="3"
+		nH="48" nW="430" nX="1433" nY="70" rectid="1353495894" rectname="文字区域(1)"
+		speed="0" transparent="false" />
+	<videorect layer="4" nH="683" nW="1025" nX="32" nY="206"
+		rectid="1353495895" rectname="视频区域" />
+	<imagerect layer="5" nH="677" nW="440" nX="1436" nY="211"
+		rectid="1353495896" rectname="图片区域(1)" />
+	<marqueerect align_h="center" align_v="center" backcolor="#700F23"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="6" marqueetype="2"
+		nH="73" nW="1643" nX="230" nY="950" rectid="1353495897" rectname="文字区域(2)"
+		speed="3" transparent="false" />
+	<weatherlogorect layer="7" nH="96" nW="96" nX="1266"
+		nY="331" rectid="1353495898" rectname="天气图标区域" style="today" />
+	<weathertemprect align_h="right" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="8" nH="44" nW="245" nX="1117" nY="432" rectid="1353495899"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<weathertextrect align_h="right" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="" fontsize="20"
+		layer="9" nH="28" nW="148" nX="1214" nY="491" rectid="1353495900"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<daterect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="10" nH="40" nW="273"
+		nX="1089" nY="547" rectid="1353495901" rectname="日期区域" style="1"
+		transparent="true" />
+	<weekrect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="11" nH="28" nW="101"
+		nX="1261" nY="601" rectid="1353495902" rectname="星期区域" style="0"
+		transparent="true" />
+	<timerect align_h="right" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="12" nH="77" nW="230"
+		nX="1150" nY="647" rectid="1353495903" rectname="时间区域" style="0"
+		transparent="true" />
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#000000" fontname="" fontsize="20" layer="13" marqueetype="3"
+		nH="48" nW="102" nX="96" nY="940" rectid="1353765700" rectname="文字区域(3)"
+		speed="0" transparent="false" />
+	<marqueerect align_h="center" align_v="center" backcolor="#0000FF"
+		fontcolor="#000000" fontname="" fontsize="20" layer="14" marqueetype="3"
+		nH="48" nW="102" nX="96" nY="994" rectid="1353765701" rectname="文字区域(4)"
+		speed="0" transparent="false" />
+</template>

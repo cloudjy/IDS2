@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<program height="1366" id="1369210895" name="方法" width="768" interactive="true">
+<!-- 
+	<imagerect layer="1" nX="720" nY="1715" nW="360" nH="205"
+		rectid="0" rectname="Image" align_h="center" align_v="center"
+		backcolor="#c78f7f" fontcolor="#FFFFFF" fontname="Times New Roman"
+		fontsize="20" transparent="true" interactive="" jump="" />
+	<devicerect layer="2" nX="296" nY="1731" nW="428" nH="189"
+		rectid="0" rectname="Device" path="\HDD\" swapStyle="0" swapTime="2"
+		scaleStyle="3" playTime="5" />
+	<videorect layer="3" nX="0" nY="1573" nW="287" nH="347"
+		rectid="0" rectname="Video" align_h="center" align_v="center"
+		backcolor="#7f7fff" fontcolor="#FFFFFF" fontname="Times New Roman"
+		fontsize="20" transparent="true" interactive="" jump="" />
+	<marqueerect layer="4" nX="468" nY="1538" nW="612" nH="180"
+		rectid="0" rectname="Regular Text" align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="Times New Roman"
+		fontsize="20" transparent="false" speed="3" 
+		texttype="regular" marqueetype="2" />
+	<marqueerect layer="5" nX="720" nY="1368" nW="360" nH="163"
+		rectid="0" rectname="Tag Text" align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFFF" fontname="Times New Roman"
+		fontsize="20" transparent="false" speed="3" 
+		texttype="tag" marqueetype="2" />
+	<flashrect layer="6" nX="438" nY="1248" nW="642" nH="86"
+		rectid="0" rectname="Flash Area" />
+	<webrect layer="7" nX="438" nY="1042" nW="642" nH="141" rectid="0"
+		rectname="Web Area" />
+-->
+</program>

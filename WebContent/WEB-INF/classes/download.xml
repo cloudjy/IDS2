@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="download" namespace="/Pages" extends="default">
+		<action name="download" class="com.gnamp.struts.action.DownloadAction">
+			<!-- <interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="error">/Pages/login.jsp</result>
+			<result name="success">/Pages/login.jsp</result>
+			<result name="validate">/Pages/Terminal.jsp</result> -->
+		</action>
+	</package>
+</struts>

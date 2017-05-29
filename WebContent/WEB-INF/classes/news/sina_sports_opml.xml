@@ -1,0 +1,28 @@
+<opml version="1.0">
+<head>
+<title>sports-新浪rss</title>
+</head>
+<body>
+<outline title="体育频道-新浪RSS" text="体育频道-新浪RSS">
+<outline text="体育要闻汇总" title="体育要闻汇总" type="rss" xmlUrl="http://rss.sina.com.cn/roll/sports/hot_roll.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="焦点新闻" title="焦点新闻" type="rss" xmlUrl="http://rss.sina.com.cn/news/allnews/sports.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="国际足坛" title="国际足坛" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/focus.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="意甲" title="意甲" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/italy.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="英超" title="英超" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/england.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="西甲" title="西甲" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/spain.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="德甲、法甲" title="德甲、法甲" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/germanyfrance.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="五洲热报" title="五洲热报" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/others.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="精彩图片" title="精彩图片" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/photo.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="国内足坛" title="国内足坛" type="rss" xmlUrl="http://rss.sina.com.cn/sports/china/focus.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="中国之队" title="中国之队" type="rss" xmlUrl="http://rss.sina.com.cn/sports/china/team.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="篮球新闻" title="篮球新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/basketball/focus.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="NBA新闻" title="NBA新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/basketball/nba.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="CBA新闻" title="CBA新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/basketball/cba.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="综合体育" title="综合体育" type="rss" xmlUrl="http://rss.sina.com.cn/sports/others/focus.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="彩票新闻" title="彩票新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/lottery.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="高尔夫新闻" title="高尔夫新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/golf.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="F1赛车新闻" title="F1赛车新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/f1.xml" htmlUrl="www.sina.com.cn"/>
+<outline text="棋牌新闻" title="棋牌新闻" type="rss" xmlUrl="http://rss.sina.com.cn/sports/global/chess.xml" htmlUrl="www.sina.com.cn"/>
+</outline>
+</body>
+</opml>

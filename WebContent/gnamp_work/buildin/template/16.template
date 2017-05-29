@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<template height="1920" id="16" category="企业通用" name="企业通用16" desc="竖:视频+图片+天气+红色背景" width="1080">
+	<imagerect layer="1" nH="1920" nW="1080" nX="0" nY="0"
+		rectid="1353555169" rectname="图片区域">
+		<img cutin="normal" effecttime="2" file_id="16" position="full"
+			scroll="normal" seq="1" showtime="5" swap="normal" />
+	</imagerect>
+	<imagerect layer="2" nH="344" nW="1080" nX="0" nY="0"
+		rectid="1353555663" rectname="图片区域(1)" />
+	<videorect layer="3" nH="720" nW="1080" nX="0" nY="344"
+		rectid="1353555664" rectname="视频区域" />
+	<timerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="4" nH="88" nW="268"
+		nX="406" nY="1218" rectid="1353555665" rectname="时间区域" style="0"
+		transparent="true" />
+	<daterect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="5" nH="33" nW="312"
+		nX="384" nY="1327" rectid="1353555666" rectname="日期区域" style="1"
+		transparent="true" />
+	<weekrect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFCC" fontname="" fontsize="20" layer="6" nH="29" nW="108"
+		nX="486" nY="1360" rectid="1353555667" rectname="星期区域" style="0"
+		transparent="true" />
+	<weathertextrect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="7" nH="25" nW="124" nX="478" nY="1474" rectid="1353555668"
+		rectname="天气内容区域" style="today" transparent="true" />
+	<weathertemprect align_h="center" align_v="center"
+		backcolor="#000000" fontcolor="#FFFFCC" fontname="" fontsize="20"
+		layer="8" nH="37" nW="216" nX="432" nY="1507" rectid="1353555669"
+		rectname="天气温度区域" style="today" transparent="true" />
+	<weatherlogorect layer="9" nH="126" nW="126" nX="477"
+		nY="1572" rectid="1353555670" rectname="天气图标区域" style="today" />
+	<marqueerect align_h="center" align_v="center" backcolor="#000000"
+		fontcolor="#FFFFFF" fontname="" fontsize="20" layer="10" marqueetype="2"
+		nH="55" nW="1055" nX="16" nY="1853" rectid="1353555671" rectname="文字区域"
+		speed="3" transparent="false" />
+</template>

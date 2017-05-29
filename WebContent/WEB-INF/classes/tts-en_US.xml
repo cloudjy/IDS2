@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<voices> 
+		<voice key="xiaoqi"        display="Young Woman 1"   descp="[普通话][小琪][青年女声]" />
+		<voice key="aisxping"      display="Young Woman 2"   descp="[普通话][小萍][青年女声]" /> 
+		<voice key="xiaoyan"       display="Young Woman 3"   descp="[普通话][小燕][青年女声]" />
+		<voice key="aisjinger"     display="Young Woman 4"   descp="[普通话][小婧][青年女声]" />
+		<voice key="yefang"        display="Young Woman 5"   descp="[普通话][叶芳][青年女声]" />
+		<voice key="aisxmeng"      display="Young Woman 6"   descp="[普通话][小梦][青年女声]" />
+		<voice key="aismengchun"   display="Young Woman 7"   descp="[普通话][小春][青年女声]" />
+		<voice key="ziqi"          display="Young Woman 8"   descp="[普通话][子琪][青年女声]" />
+		<voice key="xiaoyu"        display="Young Man 1"   descp="[普通话][小宇][青年男声]" /> 
+		<voice key="aisjiuxu"      display="Young Man 2"   descp="[普通话][许久][青年男声]" />
+		<voice key="aisduoxu"      display="Young Man 3"   descp="[普通话][许多][青年男声]" />
+		<voice key="aisjying"      display="Middle-aged Woman"    descp="[普通话][小筠][女声播音员]" />
+		<voice key="vils"          display="Middle-aged Man"    descp="[普通话][老孙][中年男声]" />
+		<voice key="vinn"          display="Young Girl"      descp="[普通话][楠楠][童声]" />
+		<voice key="aisbabyxu"     display="Electronic Voice"    descp="[普通话][许小宝][童声]" />
+		<voice key="aisduck"       display="Donald Duck"      descp="[普通话][鸭先生][卡通人物]" />
+		<voice key="xiaoxin"       display="Crayon Shin-chan"    descp="[普通话][小新][卡通人物]" />
+		<voice key="xiaowanzi"     display="Sakura Momoko"  descp="[普通话][小丸子][卡通人物]" />
+		 
+		<voice key="xiaomei"       display="Cantonese Woman"    descp="[粤语][小梅][青年女声]" />
+		<voice key="dalong"        display="Cantonese Man"    descp="[粤语][大龙][青年男声]" />
+		<voice key="aisxlin"       display="Taiwan Mandarin"    descp="[台普][晓琳][青年女声]" />
+		<voice key="xiaoqian"      display="Northeast Dialect"  descp="[东北话][晓倩][青年女声]" />
+		<voice key="aisxrong"      display="Sichuan Dialect"  descp="[四川话][小蓉][青年女声]" />
+		<voice key="aisxying"      display="Shanxi Dialect"  descp="[陕西话][小英][青年女声]" />
+		<voice key="xiaokun"       display="Henan Dialect"  descp="[河南话][小坤][青年男声]" />
+		<voice key="aisxqiang"     display="Hunan Dialect"  descp="[湖南话][小强][青年男声]" />
+ 
+		<voice key="aiscatherine"  display="American English Woman 1"  descp="[美式英语][凯瑟琳][青年女声]" />
+		<voice key="vimary"        display="American English Woman 2"  descp="[美式英语][玛丽][青年女声]" />
+		<voice key="henry"         display="American English Man 1"  descp="[美式英语][亨利][青年男声]" />
+		<voice key="aistom"        display="American English Man 2"  descp="[美式英语][Tom][青年男声]" />
+		<voice key="aisjohn"       display="American English Man 3"  descp="[美式英语][John][青年男声]" /> 
+	</voices>
+	<categorys>
+		 <category display="Mandarin">
+			<voice key="xiaoqi" />       <!-- "[普通话][小琪][青年女声]" -->  
+			<voice key="aisxping" />     <!-- "[普通话][小萍][青年女声]" --> 
+			<voice key="xiaoyan" />      <!-- "[普通话][小燕][青年女声]" --> 
+			<voice key="aisjinger" />    <!-- "[普通话][小婧][青年女声]" --> 
+			<voice key="yefang" />       <!-- "[普通话][叶芳][青年女声]" --> 
+			<voice key="aisxmeng" />     <!-- "[普通话][小梦][青年女声]" --> 
+			<voice key="aismengchun" />  <!-- "[普通话][小春][青年女声]" --> 
+			<voice key="ziqi" />         <!-- "[普通话][子琪][青年女声]" --> 
+			<voice key="xiaoyu" />       <!-- "[普通话][小宇][青年男声]" -->  
+			<voice key="aisjiuxu" />     <!-- "[普通话][许久][青年男声]" --> 
+			<voice key="aisduoxu" />     <!-- "[普通话][许多][青年男声]" --> 
+			<voice key="aisjying" />     <!-- "[普通话][小筠][女声播音员]" --> 
+			<voice key="vils" />         <!-- "[普通话][老孙][中年男声]" --> 
+			<voice key="vinn" />         <!-- "[普通话][楠楠][童声]" --> 
+			<voice key="aisbabyxu" />    <!-- "[普通话][许小宝][童声]" --> 
+			<voice key="aisduck" />      <!-- "[普通话][鸭先生][卡通人物]" --> 
+			<voice key="xiaoxin" />      <!-- "[普通话][小新][卡通人物]" --> 
+			<voice key="xiaowanzi" />    <!-- "[普通话][小丸子][卡通人物]" --> 
+		</category>                      
+		<category display="Dialect">    
+			<voice key="xiaomei" />      <!-- "[粤语][小梅][青年女声]" --> 
+			<voice key="dalong" />       <!-- "[粤语][大龙][青年男声]" --> 
+			<voice key="aisxlin" />      <!-- "[台普][晓琳][青年女声]" --> 
+			<voice key="xiaoqian" />     <!-- "[东北话][晓倩][青年女声]" --> 
+			<voice key="aisxrong" />     <!-- "[四川话][小蓉][青年女声]" --> 
+			<voice key="aisxying" />     <!-- "[陕西话][小英][青年女声]" --> 
+			<voice key="xiaokun" />      <!-- "[河南话][小坤][青年男声]" --> 
+			<voice key="aisxqiang" />    <!-- "[湖南话][小强][青年男声]" --> 
+		</category>                       
+		<category display="English">        
+			<voice key="aiscatherine" /> <!-- "[美式英语][凯瑟琳][青年女声]" --> 
+			<voice key="vimary" />       <!-- "[美式英语][玛丽][青年女声]" --> 
+			<voice key="henry" />        <!-- "[美式英语][亨利][青年男声]" --> 
+			<voice key="aistom" />       <!-- "[美式英语][Tom][青年男声]" --> 
+			<voice key="aisjohn" />      <!-- "[美式英语][John][青年男声]" --> 
+		</category>                      
+		<category display="Male">        
+			<voice key="xiaoyu" />       <!-- "[普通话][小宇][青年男声]" -->  
+			<voice key="aisjiuxu" />     <!-- "[普通话][许久][青年男声]" --> 
+			<voice key="aisduoxu" />     <!-- "[普通话][许多][青年男声]" --> 
+			<voice key="vils" />         <!-- "[普通话][老孙][中年男声]" --> 
+			<voice key="dalong" />       <!-- "[粤语][大龙][青年男声]" --> 
+			<voice key="henry" />        <!-- "[美式英语][亨利][青年男声]" --> 
+			<voice key="aistom" />       <!-- "[美式英语][Tom][青年男声]" --> 
+			<voice key="aisjohn" />      <!-- "[美式英语][John][青年男声]" -->  
+		</category>                      
+		<category display="Female">        
+			<voice key="xiaoyan" />      <!-- "[普通话][小燕][青年女声]" --> 
+			<voice key="xiaoqi" />       <!-- "[普通话][小琪][青年女声]" -->  
+			<voice key="aisxping" />     <!-- "[普通话][小萍][青年女声]" --> 
+			<voice key="aisjinger" />    <!-- "[普通话][小婧][青年女声]" --> 
+			<voice key="yefang" />       <!-- "[普通话][叶芳][青年女声]" --> 
+			<voice key="aisxmeng" />     <!-- "[普通话][小梦][青年女声]" --> 
+			<voice key="aismengchun" />  <!-- "[普通话][小春][青年女声]" --> 
+			<voice key="ziqi" />         <!-- "[普通话][子琪][青年女声]" --> 
+			<voice key="aisjying" />     <!-- "[普通话][小筠][女声播音员]" --> 
+			<voice key="xiaomei" />      <!-- "[粤语][小梅][青年女声]" --> 
+			<voice key="aisxlin" />      <!-- "[台普][晓琳][青年女声]" --> 
+			<voice key="xiaoqian" />     <!-- "[东北话][晓倩][青年女声]" --> 
+			<voice key="aisxrong" />     <!-- "[四川话][小蓉][青年女声]" --> 
+			<voice key="aisxying" />     <!-- "[陕西话][小英][青年女声]" --> 
+			<voice key="aiscatherine" /> <!-- "[美式英语][凯瑟琳][青年女声]" --> 
+			<voice key="vimary" />       <!-- "[美式英语][玛丽][青年女声]" --> 
+		</category>                     
+		<category display="Funny">        
+			<voice key="vinn" />         <!-- "[普通话][楠楠][童声]" --> 
+			<voice key="aisbabyxu" />    <!-- "[普通话][许小宝][童声]" --> 
+			<voice key="aisduck" />      <!-- "[普通话][鸭先生][卡通人物]" --> 
+			<voice key="xiaoxin" />      <!-- "[普通话][小新][卡通人物]" --> 
+			<voice key="xiaowanzi" />    <!-- "[普通话][小丸子][卡通人物]" --> 
+		</category>      
+		<category display="All" type="all"> 
+		</category>
+	</categorys>
+</config>
